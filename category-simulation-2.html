@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulation Games - Page 2 | Play Free Online | JoyBitX</title>
+  <meta name="description" content="Play the best free Simulation games online on JoyBitX. Page 2 of our curated collection.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --bg-card: rgba(22, 28, 45, 0.7);
+      --accent: #6c5ce7;
+      --accent-glow: rgba(108, 92, 231, 0.4);
+      --text-white: #ffffff;
+      --text-gray: #a0aec0;
+      --neon-green: #00f2fe;
+      --neon-pink: #ff007f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: radial-gradient(circle at top, #1a1b36 0%, var(--bg-dark) 70%);
+      color: var(--text-white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Top Navbar Styles */
+    .top-navbar {
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 70px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s;
+    }
+
+    .top-nav-container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-nav-logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-white);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #ffffff 30%, var(--text-gray) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .top-nav-logo span {
+      -webkit-text-fill-color: initial;
+    }
+
+    .top-nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .top-nav-item {
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .top-nav-item:hover, .top-nav-item.active {
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    /* Dropdown Styles */
+    .top-nav-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .top-nav-dropdown-btn {
+      background: none;
+      border: none;
+      color: var(--text-gray);
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .top-nav-dropdown-btn:hover, .top-nav-dropdown.active .top-nav-dropdown-btn {
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .top-nav-dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background: #111519;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      min-width: 180px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      z-index: 1010;
+      padding: 8px 0;
+      margin-top: 5px;
+    }
+
+    .top-nav-dropdown-content a {
+      color: var(--text-gray);
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      text-align: left;
+    }
+
+    .top-nav-dropdown-content a:hover, .top-nav-dropdown-content a.active {
+      color: var(--text-white);
+      background: var(--accent);
+    }
+
+    .top-nav-dropdown:hover .top-nav-dropdown-content {
+      display: block;
+    }
+
+    /* Toggle button for Mobile */
+    .top-nav-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 24px;
+      height: 18px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 1020;
+    }
+
+    .top-nav-toggle .toggle-bar {
+      width: 100%;
+      height: 2px;
+      background-color: var(--text-white);
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--neon-green), var(--neon-pink));
+      border-radius: 2px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, #ffffff 30%, var(--text-gray) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--text-gray);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Categories Navigation inside Footer */
+    .categories-nav {
+      padding: 15px 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .categories-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .category-link {
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .category-link:hover, .category-link.active {
+      color: var(--text-white);
+      background: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 20px 80px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 16px;
+      box-shadow: 0 0 40px var(--accent-glow);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      z-index: -1;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: var(--accent);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .thumbnail-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      overflow: hidden;
+      background: #000;
+    }
+
+    .thumbnail-wrapper img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .card:hover .thumbnail-wrapper img {
+      transform: scale(1.08);
+    }
+
+    .card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-white);
+    }
+
+    .card-description {
+      font-size: 0.95rem;
+      color: var(--text-gray);
+      margin-bottom: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      flex-grow: 1;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .tag {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-gray);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border: 1px solid rgba(255, 255, 255, 0.02);
+    }
+
+    .play-btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--accent);
+      color: var(--text-white);
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.2);
+    }
+
+    .play-btn:hover {
+      background: #7d6ef9;
+      box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+    }
+
+    .play-btn:active {
+      transform: scale(0.98);
+    }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      margin-top: 40px;
+      padding: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .page-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 40px;
+      height: 40px;
+      padding: 0 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      color: var(--text-gray);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .page-link:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-white);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .page-link.active {
+      background: var(--accent);
+      color: var(--text-white);
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+    }
+
+    .page-link.disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .page-arrow {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--text-gray);
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .top-nav-toggle {
+        display: flex;
+      }
+
+      .top-nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 250px;
+        height: calc(100vh - 70px);
+        background: #0b0f19;
+        border-left: 1px solid rgba(255, 255, 255, 0.05);
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 20px;
+        gap: 10px;
+        transition: right 0.3s ease;
+        z-index: 999;
+      }
+
+      .top-nav-menu.open {
+        right: 0;
+      }
+
+      .top-nav-item, .top-nav-dropdown-btn {
+        width: 100%;
+        text-align: left;
+        padding: 12px 15px;
+      }
+
+      .top-nav-dropdown-content {
+        position: static;
+        display: block;
+        background: rgba(255, 255, 255, 0.02);
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 0;
+        padding-left: 15px;
+      }
+
+      .top-nav-toggle.active .toggle-bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+      .top-nav-toggle.active .toggle-bar:nth-child(2) {
+        opacity: 0;
+      }
+      .top-nav-toggle.active .toggle-bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+      .subtitle {
+        font-size: 1rem;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <nav class="top-navbar">
+    <div class="top-nav-container">
+      <a href="index.html" class="top-nav-logo">
+        <span>🎮</span> JoyBitX
+      </a>
+
+      <button class="top-nav-toggle" id="topNavToggle" aria-label="Toggle menu">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+      <div class="top-nav-menu" id="topNavMenu">
+        <a href="index.html" class="top-nav-item ">Home</a>
+        <a href="category-casual.html" class="top-nav-item ">Casual</a>
+        <a href="category-puzzle.html" class="top-nav-item ">Puzzle</a>
+        <a href="category-adventure.html" class="top-nav-item ">Adventure</a>
+        <a href="category-simulation.html" class="top-nav-item active">Simulation</a>
+        <a href="category-agility.html" class="top-nav-item ">Agility</a>
+        <a href="category-shooter.html" class="top-nav-item ">Shooter</a>
+        <div class="top-nav-dropdown ">
+          <button class="top-nav-dropdown-btn">More ▾</button>
+          <div class="top-nav-dropdown-content">
+            <a href="category-dress-up.html" class="">Dress-up</a>
+            <a href="category-racing-driving.html" class="">Racing & Driving</a>
+            <a href="category-strategy.html" class="">Strategy</a>
+            <a href="category-battle.html" class="">Battle</a>
+            <a href="category-merge.html" class="">Merge</a>
+            <a href="category-match-3.html" class="">Match-3</a>
+            <a href="category-educational.html" class="">Educational</a>
+            <a href="category-mahjong-connect.html" class="">Mahjong & Connect</a>
+            <a href="category-cards.html" class="">Cards</a>
+            <a href="category-io.html" class="">.IO</a>
+            <a href="category-sports.html" class="">Sports</a>
+            <a href="category-care.html" class="">Care</a>
+            <a href="category-boardgames.html" class="">Boardgames</a>
+            <a href="category-quiz.html" class="">Quiz</a>
+            <a href="category-art.html" class="">Art</a>
+            <a href="category-bubble-shooter.html" class="">Bubble Shooter</a>
+            <a href="category-cooking.html" class="">Cooking</a>
+            <a href="category-basketball.html" class="">Basketball</a>
+            <a href="category-football.html" class="">Football</a>
+            <a href="category-jigsaw.html" class="">Jigsaw</a>
+          </div>
+        </div>
+        <div class="top-nav-dropdown ">
+          <button class="top-nav-dropdown-btn">About ▾</button>
+          <div class="top-nav-dropdown-content">
+            <a href="contact.html" class="">Contact Us</a>
+            <a href="privacy.html" class="">Privacy Policy</a>
+            <a href="terms.html" class="">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Dedicated Search Bar Row -->
+  <div class="search-bar-row">
+    <div class="search-bar-row-container">
+      <input type="text" id="searchInput" placeholder="Search for your favorite games..." autocomplete="off">
+      <div id="searchSuggestions" class="search-suggestions"></div>
+    </div>
+  </div>
+
+  <header>
+    <h1>Simulation Games</h1>
+    <p class="subtitle">Play the best free Simulation games online on JoyBitX. Page 2 of our curated collection.</p>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+            <!-- Card: Hydraulic Press 2D ASMR -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/487.webp" alt="Hydraulic Press 2D ASMR Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Hydraulic Press 2D ASMR</h2>
+          <p class="card-description">You have in your hands a terrifying power that gives you the ability to grind dozens of objects! A very effective stress reliever. Try out your personal hydraulic press right now and start destroying all objects! Crush, crush, break!</p>
+          <div class="tag-container">
+            <span class="tag">Casual</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="hydraulic-press-2d-asmr.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Space Cleaner -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/508.webp" alt="Space Cleaner Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Space Cleaner</h2>
+          <p class="card-description">Space Cleaner is a casual space arcade game where you clear dangerous asteroid fields around your spacecraft. Use your mouse to destroy nearby asteroids, earn money, and survive as long as your fuel lasts.
+
+When your fuel runs out, upgrade your ship’s abilities and return to space to continue cleaning the asteroid field. Destroy every asteroid to complete the stage and unlock the next challenge.</p>
+          <div class="tag-container">
+            <span class="tag">Simulation</span>
+          </div>
+          <a href="space-cleaner.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Clinic Cleanup Crew -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/509.webp" alt="Clinic Cleanup Crew Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Clinic Cleanup Crew</h2>
+          <p class="card-description">Players play the role of cleaners in the health center in the game. They are responsible for the cleaning and sanitation work in all areas within the health center, keeping the environment of the health center clean and hygienic and providing a good environment for clients.
+The game features a fresh and lovely art style, with the details of characters and buildings depicted vividly, bringing players a healing visual enjoyment.</p>
+          <div class="tag-container">
+            <span class="tag">Simulation</span>
+          </div>
+          <a href="clinic-cleanup-crew.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Parking Master Urban Challenges -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/528.webp" alt="Parking Master Urban Challenges Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Parking Master Urban Challenges</h2>
+          <p class="card-description">A realistic 3D parking simulator where you can hone your driving skills and become a real parking master!
+Get behind the wheel of realistic cars of different sizes and maneuver through crowded city streets, parking in the most difficult places.
+Pass all the tests, become a parking master and prove that you can do any maneuver!</p>
+          <div class="tag-container">
+            <span class="tag">Simulation</span>
+          </div>
+          <a href="parking-master-urban-challenges.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Feet Doctor Urgency Care -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/545.webp" alt="Feet Doctor Urgency Care Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Feet Doctor Urgency Care</h2>
+          <p class="card-description">As a podiatrist in this medical simulation game, treat various urgent foot conditions and save patients. As a doctor, you will take care of the patient's feet.
+Use all tools to cure them.</p>
+          <div class="tag-container">
+            <span class="tag">Care</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="feet-doctor-urgency-care.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: From Nerd to Popular Ballerina Cappuccina -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/548.webp" alt="From Nerd to Popular Ballerina Cappuccina Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">From Nerd to Popular Ballerina Cappuccina</h2>
+          <p class="card-description">From Nerd to Popular: Ballerina Cappuccina is a makeover and dress-up game that follows a sweet transformation story. Ballerina Cappuccina starts as a shy, awkward girl with big dreams—and it’s your job to help her glow up and become the confident ballerina she’s meant to be.
+
+Style her through each stage with fabulous outfits, stylish hairstyles, and elegant accessories. As you dress her up, she slowly sheds her insecurities and gains the charm and confidence needed to shine on stage.</p>
+          <div class="tag-container">
+            <span class="tag">Dress-up</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="from-nerd-to-popular-ballerina-cappuccina.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Lucky Brainrot Blocks Online -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/549.webp" alt="Lucky Brainrot Blocks Online Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Lucky Brainrot Blocks Online</h2>
+          <p class="card-description">Lucky Brainrot Blocks Online game takes the familiar lucky box idea and turns it into a more active risk-and-return loop. You move through 14 areas, open boxes, collect brainrots, and decide whether to head back safely or keep pushing for rarer finds. Online play is available through 1 Player mode, while local 2-player adds a same-screen option for faster, more chaotic sessions. Rebirth, speed upgrades, better boxes, base expansion, and roaming bosses keep every run moving forward.</p>
+          <div class="tag-container">
+            <span class="tag">Casual</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="lucky-brainrot-blocks-online.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Idle Farm -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/556.webp" alt="Idle Farm Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Idle Farm</h2>
+          <p class="card-description">Run your own successful farm and build an empire! The more you grow and harvest, the more money you get!
+Use the money to upgrade your fields and make harvesting even more effective at producing food. Keep an eye on your production - with careful planning you’ll achieve everything! Expand your farm further and further until you truly own an empire.
+Hire farm managers to do most of the work for you. Use their help to expand your farming empire, plant new crops and produce even more food!</p>
+          <div class="tag-container">
+            <span class="tag">Simulation</span>
+          </div>
+          <a href="idle-farm.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Brainrots Lava Survive Online -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/565.webp" alt="Brainrots Lava Survive Online Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Brainrots Lava Survive Online</h2>
+          <p class="card-description">Brainrots Lava Survive Online is an intense survival experience where rising lava transforms the map into a dangerous obstacle zone. Players must collect brainrots in risky areas and escape before the lava blocks safe routes. Online mode is available in 1 Player, allowing chat and interaction, while 2 Player mode offers local shared-screen competition. With more than 60 characters in normal, gold, diamond, Celestial, and time-limited Divine tiers, progression stays dynamic.</p>
+          <div class="tag-container">
+            <span class="tag">Casual</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="brainrots-lava-survive-online.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Pixel Mini Golf -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/569.webp" alt="Pixel Mini Golf Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Pixel Mini Golf</h2>
+          <p class="card-description">Mini Golf is a complete game, with 400 different levels, and an addictive system. Have fun exploring the game’s green hills and plains while listening to the birds and enjoying its beautiful views, collect as many coins as possible and try to hit all the holes to achieve the highest score.
+
+Among the game mechanics are levels with: Portals, Boxing Gloves, Cannons, Burners, Impulses, Mill, Sand, Mole Holes, Spikes and Movement Blocks that will help or hinder your game!</p>
+          <div class="tag-container">
+            <span class="tag">Sports</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="pixel-mini-golf.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Ship Factory Tycoon -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/576.webp" alt="Ship Factory Tycoon Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Ship Factory Tycoon</h2>
+          <p class="card-description">Play Ship Factory Tycoon free online and build your industrial empire in a fast-loading browser game you can play instantly with no download and no install. Manage production lines, automate workflows, and upgrade your shipyard in a smart strategy experience that feels like a rewarding brain game. This unblocked game runs smoothly at school or home and is fully mobile-friendly. Optimized for desktop and mobile, it’s a free online game perfect for quick breaks or long-term tycoon planning anytime</p>
+          <div class="tag-container">
+            <span class="tag">Casual</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="ship-factory-tycoon.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: ASMR Water vs Fire -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/578.webp" alt="ASMR Water vs Fire Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">ASMR Water vs Fire</h2>
+          <p class="card-description">Water vs Fire, upgrade your water power and damp down the fire!
+And Have fun!
+
+Upgrade your Water Power and your Amount of Canister.
+
+
+- Easy intuitive controls
+- Release to shoot</p>
+          <div class="tag-container">
+            <span class="tag">Casual</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="asmr-water-vs-fire.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Online Car Destruction Simulator 3D -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/592.webp" alt="Online Car Destruction Simulator 3D Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Online Car Destruction Simulator 3D</h2>
+          <p class="card-description">Experience a high-speed realistic car collision simulator! Drive down slopes and crash into specialized obstacles with various vehicles, all featuring authentic physics and a detailed damage system with separating parts.</p>
+          <div class="tag-container">
+            <span class="tag">Simulation</span>
+          </div>
+          <a href="online-car-destruction-simulator-3d.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Airport Master Plane Tycoon -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/596.webp" alt="Airport Master Plane Tycoon Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Airport Master Plane Tycoon</h2>
+          <p class="card-description">Airport Master - Plane Tycoon is an airport management simulation game. With 3D stickman models, you can control the manager of a larger airport. Each level has a target passenger for you to complete. You can unlock the gate, scanner, security check, and lounge in the tutorials.</p>
+          <div class="tag-container">
+            <span class="tag">Simulation</span>
+          </div>
+          <a href="airport-master-plane-tycoon.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Taxi Driver Simulator -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/614.webp" alt="Taxi Driver Simulator Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Taxi Driver Simulator</h2>
+          <p class="card-description">Taxi Driver Simulator offers an immersive experience behind the wheel of a taxi. Complete Work Mode’s 80 levels with 3 yellow stars to become an eligible taxi driver. Follow the blue direction indicators, pick up passengers, and deliver them to their destinations efficiently. Slow down before steering to save time. Don’t forget to buy the other 9 cars in the garage as you earn money! In Free mode, drive farther and pay for fuel at gas stations. Keep serving customers without advancing levels.</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="taxi-driver-simulator.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: My Garden Journey -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/616.webp" alt="My Garden Journey Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">My Garden Journey</h2>
+          <p class="card-description">Grow your dream garden, raise animals, and enjoy peaceful farm life!
+
+Welcome to My Garden Journey! ?? Start your peaceful farming adventure in My Garden Journey, the ultimate relaxing farming simulator!</p>
+          <div class="tag-container">
+            <span class="tag">Casual</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="my-garden-journey.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Oil Tanker Transport Truck -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/619.webp" alt="Oil Tanker Transport Truck Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Oil Tanker Transport Truck</h2>
+          <p class="card-description">Let's go on to ride with an oil tanker transporter truck across all the continents like the Euro, Asia, and America oil transporter truck game has real features in the Euro and American cargo systems of the fuel truck.</p>
+          <div class="tag-container">
+            <span class="tag">.IO</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="oil-tanker-transport-truck.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: The Bodyguard -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/628.webp" alt="The Bodyguard Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">The Bodyguard</h2>
+          <p class="card-description">Players will have to save the future boss. You will have to take control of a bodyguard. The bodyguard is forced to protect the boss with his body, whom they are trying to attack. The main task is to save the boss.</p>
+          <div class="tag-container">
+            <span class="tag">Shooter</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="the-bodyguard.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: My Cake Shop: Bake & Serve -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/635.webp" alt="My Cake Shop: Bake & Serve Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">My Cake Shop: Bake & Serve</h2>
+          <p class="card-description">Run your own sweet bakery in My Cake Shop! Bake and stack colorful donuts, clean messy floors, and serve hungry customers. Expand across the world by unlocking new bakery locations and upgrading machines. Manage crowds, grow your patisserie empire, and become the ultimate idle arcade tycoon!</p>
+          <div class="tag-container">
+            <span class="tag">Cooking</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="my-cake-shop-bake-serve.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: The Stone Miner -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/650.webp" alt="The Stone Miner Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">The Stone Miner</h2>
+          <p class="card-description">Become the ultimate mining tycoon in The Stone Miner! Drive your powerful mining machine through various fantasy terrains. Crush, collect and smash stones like never before! Steer your mine cart through rocks of different colors and materials and enjoy the exhilarating experience of stone mining. Sell collected stones for gold, and unlock new areas full of rare materials and surprises! Upgrade your vehicle to mine faster and deeper, turning your gear into a true beast!</p>
+          <div class="tag-container">
+            <span class="tag">Casual</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="the-stone-miner.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+    </div>
+    <div class="pagination"><a href="category-simulation.html" class="page-link page-arrow">&laquo; Prev</a><a href="category-simulation.html" class="page-link">1</a><span class="page-link active">2</span><a href="category-simulation-3.html" class="page-link">3</a><a href="category-simulation-3.html" class="page-link page-arrow">Next &raquo;</a></div>
+  </div>
+
+  <footer>
+      <nav class="categories-nav">
+    <div class="categories-container">
+      <a href="index.html" class="category-link ">All Games</a>
+      <a href="category-io.html" class="category-link ">.IO</a>
+      <a href="category-adventure.html" class="category-link ">Adventure</a>
+      <a href="category-agility.html" class="category-link ">Agility</a>
+      <a href="category-art.html" class="category-link ">Art</a>
+      <a href="category-basketball.html" class="category-link ">Basketball</a>
+      <a href="category-battle.html" class="category-link ">Battle</a>
+      <a href="category-boardgames.html" class="category-link ">Boardgames</a>
+      <a href="category-bubble-shooter.html" class="category-link ">Bubble Shooter</a>
+      <a href="category-cards.html" class="category-link ">Cards</a>
+      <a href="category-care.html" class="category-link ">Care</a>
+      <a href="category-casual.html" class="category-link ">Casual</a>
+      <a href="category-cooking.html" class="category-link ">Cooking</a>
+      <a href="category-dress-up.html" class="category-link ">Dress-up</a>
+      <a href="category-educational.html" class="category-link ">Educational</a>
+      <a href="category-football.html" class="category-link ">Football</a>
+      <a href="category-jigsaw.html" class="category-link ">Jigsaw</a>
+      <a href="category-mahjong-connect.html" class="category-link ">Mahjong & Connect</a>
+      <a href="category-match-3.html" class="category-link ">Match-3</a>
+      <a href="category-merge.html" class="category-link ">Merge</a>
+      <a href="category-puzzle.html" class="category-link ">Puzzle</a>
+      <a href="category-quiz.html" class="category-link ">Quiz</a>
+      <a href="category-racing-driving.html" class="category-link ">Racing & Driving</a>
+      <a href="category-shooter.html" class="category-link ">Shooter</a>
+      <a href="category-simulation.html" class="category-link active">Simulation</a>
+      <a href="category-sports.html" class="category-link ">Sports</a>
+      <a href="category-strategy.html" class="category-link ">Strategy</a>
+    </div>
+  </nav>
+    <p style="margin-top: 15px;">&copy; 2026 Simulation Games. Deployed on joybitx.github.io.</p>
+    <div class="footer-links" style="margin-top: 15px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; align-items: center;">
+  <a href="contact.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Contact Us</a>
+  <span style="color: rgba(255, 255, 255, 0.15);">|</span>
+  <a href="privacy.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Privacy Policy</a>
+  <span style="color: rgba(255, 255, 255, 0.15);">|</span>
+  <a href="terms.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Terms of Service</a>
+</div>
+
+  </footer>
+
+  <script src="ads-manager.js" defer></script>
+  <script src="search.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const topNavToggle = document.getElementById('topNavToggle');
+      const topNavMenu = document.getElementById('topNavMenu');
+      if (topNavToggle && topNavMenu) {
+        topNavToggle.addEventListener('click', () => {
+          topNavMenu.classList.toggle('open');
+          topNavToggle.classList.toggle('active');
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racing & Driving Games | Play Free Online | JoyBitX</title>
+  <meta name="description" content="Play the best free Racing & Driving games online on JoyBitX. Page 1 of our curated collection.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --bg-card: rgba(22, 28, 45, 0.7);
+      --accent: #6c5ce7;
+      --accent-glow: rgba(108, 92, 231, 0.4);
+      --text-white: #ffffff;
+      --text-gray: #a0aec0;
+      --neon-green: #00f2fe;
+      --neon-pink: #ff007f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: radial-gradient(circle at top, #1a1b36 0%, var(--bg-dark) 70%);
+      color: var(--text-white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Top Navbar Styles */
+    .top-navbar {
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 70px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s;
+    }
+
+    .top-nav-container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-nav-logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-white);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #ffffff 30%, var(--text-gray) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .top-nav-logo span {
+      -webkit-text-fill-color: initial;
+    }
+
+    .top-nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .top-nav-item {
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .top-nav-item:hover, .top-nav-item.active {
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    /* Dropdown Styles */
+    .top-nav-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .top-nav-dropdown-btn {
+      background: none;
+      border: none;
+      color: var(--text-gray);
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .top-nav-dropdown-btn:hover, .top-nav-dropdown.active .top-nav-dropdown-btn {
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .top-nav-dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background: #111519;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      min-width: 180px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      z-index: 1010;
+      padding: 8px 0;
+      margin-top: 5px;
+    }
+
+    .top-nav-dropdown-content a {
+      color: var(--text-gray);
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      text-align: left;
+    }
+
+    .top-nav-dropdown-content a:hover, .top-nav-dropdown-content a.active {
+      color: var(--text-white);
+      background: var(--accent);
+    }
+
+    .top-nav-dropdown:hover .top-nav-dropdown-content {
+      display: block;
+    }
+
+    /* Toggle button for Mobile */
+    .top-nav-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 24px;
+      height: 18px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 1020;
+    }
+
+    .top-nav-toggle .toggle-bar {
+      width: 100%;
+      height: 2px;
+      background-color: var(--text-white);
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--neon-green), var(--neon-pink));
+      border-radius: 2px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, #ffffff 30%, var(--text-gray) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--text-gray);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Categories Navigation inside Footer */
+    .categories-nav {
+      padding: 15px 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .categories-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .category-link {
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .category-link:hover, .category-link.active {
+      color: var(--text-white);
+      background: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 20px 80px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 16px;
+      box-shadow: 0 0 40px var(--accent-glow);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      z-index: -1;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: var(--accent);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .thumbnail-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      overflow: hidden;
+      background: #000;
+    }
+
+    .thumbnail-wrapper img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .card:hover .thumbnail-wrapper img {
+      transform: scale(1.08);
+    }
+
+    .card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-white);
+    }
+
+    .card-description {
+      font-size: 0.95rem;
+      color: var(--text-gray);
+      margin-bottom: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      flex-grow: 1;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .tag {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-gray);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border: 1px solid rgba(255, 255, 255, 0.02);
+    }
+
+    .play-btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--accent);
+      color: var(--text-white);
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.2);
+    }
+
+    .play-btn:hover {
+      background: #7d6ef9;
+      box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+    }
+
+    .play-btn:active {
+      transform: scale(0.98);
+    }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      margin-top: 40px;
+      padding: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .page-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 40px;
+      height: 40px;
+      padding: 0 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      color: var(--text-gray);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .page-link:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-white);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .page-link.active {
+      background: var(--accent);
+      color: var(--text-white);
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+    }
+
+    .page-link.disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .page-arrow {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--text-gray);
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .top-nav-toggle {
+        display: flex;
+      }
+
+      .top-nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 250px;
+        height: calc(100vh - 70px);
+        background: #0b0f19;
+        border-left: 1px solid rgba(255, 255, 255, 0.05);
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 20px;
+        gap: 10px;
+        transition: right 0.3s ease;
+        z-index: 999;
+      }
+
+      .top-nav-menu.open {
+        right: 0;
+      }
+
+      .top-nav-item, .top-nav-dropdown-btn {
+        width: 100%;
+        text-align: left;
+        padding: 12px 15px;
+      }
+
+      .top-nav-dropdown-content {
+        position: static;
+        display: block;
+        background: rgba(255, 255, 255, 0.02);
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 0;
+        padding-left: 15px;
+      }
+
+      .top-nav-toggle.active .toggle-bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+      .top-nav-toggle.active .toggle-bar:nth-child(2) {
+        opacity: 0;
+      }
+      .top-nav-toggle.active .toggle-bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+      .subtitle {
+        font-size: 1rem;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <nav class="top-navbar">
+    <div class="top-nav-container">
+      <a href="index.html" class="top-nav-logo">
+        <span>🎮</span> JoyBitX
+      </a>
+
+      <button class="top-nav-toggle" id="topNavToggle" aria-label="Toggle menu">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+      <div class="top-nav-menu" id="topNavMenu">
+        <a href="index.html" class="top-nav-item ">Home</a>
+        <a href="category-casual.html" class="top-nav-item ">Casual</a>
+        <a href="category-puzzle.html" class="top-nav-item ">Puzzle</a>
+        <a href="category-adventure.html" class="top-nav-item ">Adventure</a>
+        <a href="category-simulation.html" class="top-nav-item ">Simulation</a>
+        <a href="category-agility.html" class="top-nav-item ">Agility</a>
+        <a href="category-shooter.html" class="top-nav-item ">Shooter</a>
+        <div class="top-nav-dropdown active">
+          <button class="top-nav-dropdown-btn">More ▾</button>
+          <div class="top-nav-dropdown-content">
+            <a href="category-dress-up.html" class="">Dress-up</a>
+            <a href="category-racing-driving.html" class="active">Racing & Driving</a>
+            <a href="category-strategy.html" class="">Strategy</a>
+            <a href="category-battle.html" class="">Battle</a>
+            <a href="category-merge.html" class="">Merge</a>
+            <a href="category-match-3.html" class="">Match-3</a>
+            <a href="category-educational.html" class="">Educational</a>
+            <a href="category-mahjong-connect.html" class="">Mahjong & Connect</a>
+            <a href="category-cards.html" class="">Cards</a>
+            <a href="category-io.html" class="">.IO</a>
+            <a href="category-sports.html" class="">Sports</a>
+            <a href="category-care.html" class="">Care</a>
+            <a href="category-boardgames.html" class="">Boardgames</a>
+            <a href="category-quiz.html" class="">Quiz</a>
+            <a href="category-art.html" class="">Art</a>
+            <a href="category-bubble-shooter.html" class="">Bubble Shooter</a>
+            <a href="category-cooking.html" class="">Cooking</a>
+            <a href="category-basketball.html" class="">Basketball</a>
+            <a href="category-football.html" class="">Football</a>
+            <a href="category-jigsaw.html" class="">Jigsaw</a>
+          </div>
+        </div>
+        <div class="top-nav-dropdown ">
+          <button class="top-nav-dropdown-btn">About ▾</button>
+          <div class="top-nav-dropdown-content">
+            <a href="contact.html" class="">Contact Us</a>
+            <a href="privacy.html" class="">Privacy Policy</a>
+            <a href="terms.html" class="">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Dedicated Search Bar Row -->
+  <div class="search-bar-row">
+    <div class="search-bar-row-container">
+      <input type="text" id="searchInput" placeholder="Search for your favorite games..." autocomplete="off">
+      <div id="searchSuggestions" class="search-suggestions"></div>
+    </div>
+  </div>
+
+  <header>
+    <h1>Racing & Driving Games</h1>
+    <p class="subtitle">Play the best free Racing & Driving games online on JoyBitX. Page 1 of our curated collection.</p>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+            <!-- Card: Princess Run 3D -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/317.webp" alt="Princess Run 3D Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Princess Run 3D</h2>
+          <p class="card-description">Want a magical and exciting running adventure? Step into Princess Run 3D, a fun 3D platform arcade game full of exciting challenges. Play as a fearless princess racing through colorful 3D worlds. Collect beautiful clothes, shoes, hair, etc. Increase your charisma to get a maid of honor. They're going to help you fend off enemies in front of you or dirty mud, rain, etc. Be careful to avoid ugly clothes, costumes, bad weather, etc.</p>
+          <div class="tag-container">
+            <span class="tag">Adventure</span>
+<span class="tag">Racing & Driving</span>
+          </div>
+          <a href="princess-run-3d.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Two Stunt Supercars -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/350.webp" alt="Two Stunt Supercars Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Two Stunt Supercars</h2>
+          <p class="card-description">Skid the wheel of a stunning supercar through 3 awesome game modes and showcase your driving skills. Customize your car according to your taste and drive in style with the roaring engines. Feel the heat in 2 player mode where you go head to head with your friend in 2 amazing game modes! Are you ready to conquer the stunt city? Prove yourself with Two Stunt Racers!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="two-stunt-supercars.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Mr. Drifter: Car Chase Simulator -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/366.webp" alt="Mr. Drifter: Car Chase Simulator Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Mr. Drifter: Car Chase Simulator</h2>
+          <p class="card-description">Run fast, crash hard, and cheat death — in style.
+
+Race through a chaotic low-poly city as you dodge police, traffic, and total destruction. Use game-changing power-ups like Slow-Mo, Freeze, and EMP Blasts to escape the impossible.
+
+Unlock wild getaway cars
+⚡ Grab power-ups mid-chase
+ Smash through obstacles & roadblocks
+Stylized low-poly world with top-down tilt
+Endless cops. Infinite chaos.
+
+One rule: don’t stop. How long can you stay free?</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="mr-drifter-car-chase-simulator.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Shape Transforming: Shifting Run -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/371.webp" alt="Shape Transforming: Shifting Run Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Shape Transforming: Shifting Run</h2>
+          <p class="card-description">Get ready to dive into the exhilarating world of Shape Transforming: Shifting Run, where the power of transformation is in your hands! This game is a thrilling journey across diverse terrains, challenging players to adapt, transform, and conquer. If you have a knack for quick thinking and love dynamic gameplay, this is the perfect game for you! ??</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="shape-transforming-shifting-run.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Summer Rider 3D -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/373.webp" alt="Summer Rider 3D Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Summer Rider 3D</h2>
+          <p class="card-description">Hit the waves in Summer Rider 3D, a sun-soaked surf adventure inspired by high-speed endless runners. Glide over water on a surfboard or jet-ski, collect shimmering starfish, and push your reflexes to the limit as the speed cranks up. With a colorful summer theme and upbeat tropical soundtracks, the game offers endless fun for both solo and 2 player mode!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="summer-rider-3d.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Evony The King's Return -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/376.webp" alt="Evony The King's Return Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Evony The King's Return</h2>
+          <p class="card-description">Want to conquer the world? In Evony: The King's Return, step into a vast universe of war and zombie attacks. Command an army and use powerful weapons and guns to attack the enemy. Keep moving your soldiers, shoot digital doors, and expand your army! Keep shooting to get the gun. Face endless zombie waves with your shooting skills and unlock powerful weapons.</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="evony-the-kings-return.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Pogo Masters -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/398.webp" alt="Pogo Masters Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Pogo Masters</h2>
+          <p class="card-description">Bounce into action in Pogo Masters! Race against rivals in chaotic, physics-based platform battles where balance is everything. Compete online against players worldwide or challenge a friend locally on the same PC. Unlock dozens of unique characters, stylish pogo sticks, and eye-catching trail effects as you climb the global leaderboard. Fast-paced, competitive, and endlessly fun — become the ultimate pogo champion!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Sports</span>
+          </div>
+          <a href="pogo-masters.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Stunt Fury -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/404.webp" alt="Stunt Fury Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Stunt Fury</h2>
+          <p class="card-description">Stunt Fury takes adrenaline-fueled stunts to new heights in this action-packed gaming experience. Strap in and prepare to defy gravity as you showcase your skills on a variety of daring platforms. With heart-pounding excitement around every corner, this game challenges players to push the limits of physics and creativity.</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="stunt-fury.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Max Speed -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/405.webp" alt="Max Speed Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Max Speed</h2>
+          <p class="card-description">Race shiny sports cars on thrilling 3D tracks full of jumps, stunts, and intense battles. Explore exciting locations with unique challenges, perform daring tricks, upgrade and customize your cars, and test your skills in fast-paced arcade races. Enjoy high-speed action, stunning visuals, and nonstop adrenaline right in your browser.</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="max-speed.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: DTA 2: Maniac -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/413.webp" alt="DTA 2: Maniac Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">DTA 2: Maniac</h2>
+          <p class="card-description">DTA 2: Maniac. Create chaos like GTA. Use a vast arsenal of weapons, steal bulldozers, buses, police cars, tanks and much more - destruction is all around!</p>
+          <div class="tag-container">
+            <span class="tag">Adventure</span>
+<span class="tag">Racing & Driving</span>
+          </div>
+          <a href="dta-2-maniac.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Real Racing 3D -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/414.webp" alt="Real Racing 3D Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Real Racing 3D</h2>
+          <p class="card-description">Immerse yourself in exciting racing! Play classic cars - step on the gas and win! Win championships and unlock new cars!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Simulation</span>
+          </div>
+          <a href="real-racing-3d.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Vex X3M -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/428.webp" alt="Vex X3M Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Vex X3M</h2>
+          <p class="card-description">VEX X3M, a new extreme hill racing game with bike stunts and obstacles, is here! 
+Enjoy the classic Vex elements, but this time you will be racing your way to the finish line! 
+
+Perform crazy bike stunts in 30 unique levels filled with danger - from spikes and shooting knives to rockets and lasers. Reach the finish safely and obtain stars to unlock new unique bike skins.
+
+Complete all levels in easy and hard mode to crown yourself a master VEX X3M Rider.
+
+Start your engines and enjoy VEX X3M!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="vex-x3m.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Snow Race 3d Fun Racing -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/471.webp" alt="Snow Race 3d Fun Racing Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Snow Race 3d Fun Racing</h2>
+          <p class="card-description">Snow Race 3D: Fun Racing is an addictive arcade game. Do you want to participate in a snow race? This is probably the most fascinating and addictive game you have ever played! Collect the snow around you to make huge snowballs, then let them build ladders and climb to higher levels. Your opponents will have the same talent and you will have to race against time to race against them! Be the first to reach the finish line to win! Come join us and become a snowball master!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="snow-race-3d-fun-racing.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Motorcycle Racer: Road Mayhem -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/477.webp" alt="Motorcycle Racer: Road Mayhem Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Motorcycle Racer: Road Mayhem</h2>
+          <p class="card-description">Motorcycle Racer: Road Mayhem is an exciting motorcycle racing game. 
+In this game you will become a motorcycle racer who travels through city streets and highways, avoiding collisions with other vehicles. You will be able to unlock faster and more powerful motorcycles, each with its own unique handling characteristics, as well as improve the characteristics of your motorcycle. One of the key features of the game is a realistic physics engine that makes the gameplay challenging and exciting.</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Agility</span>
+          </div>
+          <a href="motorcycle-racer-road-mayhem.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Super Racing -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/484.webp" alt="Super Racing Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Super Racing</h2>
+          <p class="card-description">Compete to earn the most points across four connected courses with your favorite characters. The whole world is your racetrack in the Super Racing World game. Race from one course to another through interconnected paths that span the world. Traverse mountains, forests, cities, and more—with shifting weather patterns and a day/night cycle. Everything is connected! Collect coins and unlock new cars and characters.</p>
+          <div class="tag-container">
+            <span class="tag">Adventure</span>
+<span class="tag">Racing & Driving</span>
+          </div>
+          <a href="super-racing.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Car Stunt Racing 3D -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/514.webp" alt="Car Stunt Racing 3D Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Car Stunt Racing 3D</h2>
+          <p class="card-description">Car Stunt Racing 3D is a fun racing game. Open this incredibly entertaining car racing mobile game and prepare yourself to engage in all kinds of thrilling races. Place your fingers on the ground and get ready for the unexpected. You will never know what you will encounter when making your next turn. Collect energy and money, evade opponents, and join us to experience the thrill of speed and excitement! We wish you a joyful gameplay experience!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="car-stunt-racing-3d.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Gun Racing -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/530.webp" alt="Gun Racing Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Gun Racing</h2>
+          <p class="card-description">Here you cannot just race with other cars, but destroy them with the help of numerous weapons. Improve your riding skills and take first places in tournaments!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="gun-racing.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Wild Race Master 3d -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/542.webp" alt="Wild Race Master 3d Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Wild Race Master 3d</h2>
+          <p class="card-description">Wild Race Master 3D is an exciting 3D racing game that brings you into a world of extreme speed!In this game, you can experience endless racing fun and drive various cool cars. Challenge the exciting track! ? Drive your beloved racing car through various unique and challenging tracks. You should show excellent driving skills on winding roads and be flexible when dealing with various complex track conditions.</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="wild-race-master-3d.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Offroad Climb 4x4 -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/559.webp" alt="Offroad Climb 4x4 Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Offroad Climb 4x4</h2>
+          <p class="card-description">Welcome to "Offroad Climb 4x4", where the hills are alive with the roar of engines! This isn't just a game; it's an off-road odyssey. Imagine climbing up hills, navigating through a scrapyard of cars, scaling rocky terrains, and conquering snow-laden paths.
+
+Whether you're a hardcore off-road enthusiast or just looking for some casual hill-climbing fun, "Offroad Climb 4x4" has something for everyone. So, buckle up, start your engines, and let the off-road adventure begin!</p>
+          <div class="tag-container">
+            <span class="tag">Adventure</span>
+<span class="tag">Racing & Driving</span>
+          </div>
+          <a href="offroad-climb-4x4.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Motor Tour -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/584.webp" alt="Motor Tour Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Motor Tour</h2>
+          <p class="card-description">In Motor tour, the ultimate racing game, you'll experience an unforgettable adrenaline-pumping adventure with multiple modes to choose from. Take on fierce competitors, embark on an endless journey, or take things up a notch by daringly weaving through traffic with heart-stopping near misses. Don't wait any longer, start playing now and immerse yourself in this epic experience that is sure to leave you on the edge of your seat!</p>
+          <div class="tag-container">
+            <span class="tag">Racing & Driving</span>
+          </div>
+          <a href="motor-tour.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+    </div>
+    <div class="pagination"><span class="page-link disabled">&laquo; Prev</span><span class="page-link active">1</span><a href="category-racing-driving-2.html" class="page-link">2</a><a href="category-racing-driving-2.html" class="page-link page-arrow">Next &raquo;</a></div>
+  </div>
+
+  <footer>
+      <nav class="categories-nav">
+    <div class="categories-container">
+      <a href="index.html" class="category-link ">All Games</a>
+      <a href="category-io.html" class="category-link ">.IO</a>
+      <a href="category-adventure.html" class="category-link ">Adventure</a>
+      <a href="category-agility.html" class="category-link ">Agility</a>
+      <a href="category-art.html" class="category-link ">Art</a>
+      <a href="category-basketball.html" class="category-link ">Basketball</a>
+      <a href="category-battle.html" class="category-link ">Battle</a>
+      <a href="category-boardgames.html" class="category-link ">Boardgames</a>
+      <a href="category-bubble-shooter.html" class="category-link ">Bubble Shooter</a>
+      <a href="category-cards.html" class="category-link ">Cards</a>
+      <a href="category-care.html" class="category-link ">Care</a>
+      <a href="category-casual.html" class="category-link ">Casual</a>
+      <a href="category-cooking.html" class="category-link ">Cooking</a>
+      <a href="category-dress-up.html" class="category-link ">Dress-up</a>
+      <a href="category-educational.html" class="category-link ">Educational</a>
+      <a href="category-football.html" class="category-link ">Football</a>
+      <a href="category-jigsaw.html" class="category-link ">Jigsaw</a>
+      <a href="category-mahjong-connect.html" class="category-link ">Mahjong & Connect</a>
+      <a href="category-match-3.html" class="category-link ">Match-3</a>
+      <a href="category-merge.html" class="category-link ">Merge</a>
+      <a href="category-puzzle.html" class="category-link ">Puzzle</a>
+      <a href="category-quiz.html" class="category-link ">Quiz</a>
+      <a href="category-racing-driving.html" class="category-link active">Racing & Driving</a>
+      <a href="category-shooter.html" class="category-link ">Shooter</a>
+      <a href="category-simulation.html" class="category-link ">Simulation</a>
+      <a href="category-sports.html" class="category-link ">Sports</a>
+      <a href="category-strategy.html" class="category-link ">Strategy</a>
+    </div>
+  </nav>
+    <p style="margin-top: 15px;">&copy; 2026 Racing & Driving Games. Deployed on joybitx.github.io.</p>
+    <div class="footer-links" style="margin-top: 15px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; align-items: center;">
+  <a href="contact.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Contact Us</a>
+  <span style="color: rgba(255, 255, 255, 0.15);">|</span>
+  <a href="privacy.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Privacy Policy</a>
+  <span style="color: rgba(255, 255, 255, 0.15);">|</span>
+  <a href="terms.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Terms of Service</a>
+</div>
+
+  </footer>
+
+  <script src="ads-manager.js" defer></script>
+  <script src="search.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const topNavToggle = document.getElementById('topNavToggle');
+      const topNavMenu = document.getElementById('topNavMenu');
+      if (topNavToggle && topNavMenu) {
+        topNavToggle.addEventListener('click', () => {
+          topNavMenu.classList.toggle('open');
+          topNavToggle.classList.toggle('active');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
