@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Games - Page 2 | Play Free Online | JoyBitX</title>
+  <meta name="description" content="Play the best free Puzzle games online on JoyBitX. Page 2 of our curated collection.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --bg-card: rgba(22, 28, 45, 0.7);
+      --accent: #6c5ce7;
+      --accent-glow: rgba(108, 92, 231, 0.4);
+      --text-white: #ffffff;
+      --text-gray: #a0aec0;
+      --neon-green: #00f2fe;
+      --neon-pink: #ff007f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: radial-gradient(circle at top, #1a1b36 0%, var(--bg-dark) 70%);
+      color: var(--text-white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Top Navbar Styles */
+    .top-navbar {
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 70px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s;
+    }
+
+    .top-nav-container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-nav-logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-white);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #ffffff 30%, var(--text-gray) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .top-nav-logo span {
+      -webkit-text-fill-color: initial;
+    }
+
+    .top-nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .top-nav-item {
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .top-nav-item:hover, .top-nav-item.active {
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    /* Dropdown Styles */
+    .top-nav-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .top-nav-dropdown-btn {
+      background: none;
+      border: none;
+      color: var(--text-gray);
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .top-nav-dropdown-btn:hover, .top-nav-dropdown.active .top-nav-dropdown-btn {
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .top-nav-dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background: #111519;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      min-width: 180px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      z-index: 1010;
+      padding: 8px 0;
+      margin-top: 5px;
+    }
+
+    .top-nav-dropdown-content a {
+      color: var(--text-gray);
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      text-align: left;
+    }
+
+    .top-nav-dropdown-content a:hover, .top-nav-dropdown-content a.active {
+      color: var(--text-white);
+      background: var(--accent);
+    }
+
+    .top-nav-dropdown:hover .top-nav-dropdown-content {
+      display: block;
+    }
+
+    /* Toggle button for Mobile */
+    .top-nav-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 24px;
+      height: 18px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 1020;
+    }
+
+    .top-nav-toggle .toggle-bar {
+      width: 100%;
+      height: 2px;
+      background-color: var(--text-white);
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    header {
+      padding: 15px 20px 8px;
+      text-align: center;
+      position: relative;
+    }
+
+    header::after {
+      display: none;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #ffffff 30%, var(--text-gray) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      color: var(--text-gray);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Categories Navigation inside Footer */
+    .categories-nav {
+      padding: 15px 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .categories-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .category-link {
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .category-link:hover, .category-link.active {
+      color: var(--text-white);
+      background: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 20px 80px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 16px;
+      box-shadow: 0 0 40px var(--accent-glow);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      z-index: -1;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: var(--accent);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .thumbnail-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      overflow: hidden;
+      background: #000;
+    }
+
+    .thumbnail-wrapper img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .card:hover .thumbnail-wrapper img {
+      transform: scale(1.08);
+    }
+
+    .card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-white);
+    }
+
+    .card-description {
+      font-size: 0.95rem;
+      color: var(--text-gray);
+      margin-bottom: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      flex-grow: 1;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .tag {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-gray);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border: 1px solid rgba(255, 255, 255, 0.02);
+    }
+
+    .play-btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--accent);
+      color: var(--text-white);
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.2);
+    }
+
+    .play-btn:hover {
+      background: #7d6ef9;
+      box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+    }
+
+    .play-btn:active {
+      transform: scale(0.98);
+    }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      margin-top: 40px;
+      padding: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .page-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 40px;
+      height: 40px;
+      padding: 0 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      color: var(--text-gray);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .page-link:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-white);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .page-link.active {
+      background: var(--accent);
+      color: var(--text-white);
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+    }
+
+    .page-link.disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .page-arrow {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--text-gray);
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .top-nav-toggle {
+        display: flex;
+      }
+
+      .top-nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 250px;
+        height: calc(100vh - 70px);
+        background: #0b0f19;
+        border-left: 1px solid rgba(255, 255, 255, 0.05);
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 20px;
+        gap: 10px;
+        transition: right 0.3s ease;
+        z-index: 999;
+      }
+
+      .top-nav-menu.open {
+        right: 0;
+      }
+
+      .top-nav-item, .top-nav-dropdown-btn {
+        width: 100%;
+        text-align: left;
+        padding: 12px 15px;
+      }
+
+      .top-nav-dropdown-content {
+        position: static;
+        display: block;
+        background: rgba(255, 255, 255, 0.02);
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 0;
+        padding-left: 15px;
+      }
+
+      .top-nav-toggle.active .toggle-bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+      .top-nav-toggle.active .toggle-bar:nth-child(2) {
+        opacity: 0;
+      }
+      .top-nav-toggle.active .toggle-bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+      h1 {
+        font-size: 1.2rem;
+      }
+      .subtitle {
+        font-size: 0.8rem;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <nav class="top-navbar">
+    <div class="top-nav-container">
+      <a href="index.html" class="top-nav-logo">
+        <span>🎮</span> JoyBitX
+      </a>
+
+      <button class="top-nav-toggle" id="topNavToggle" aria-label="Toggle menu">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+      <div class="top-nav-menu" id="topNavMenu">
+        <a href="index.html" class="top-nav-item ">Home</a>
+        <a href="category-casual.html" class="top-nav-item ">Casual</a>
+        <a href="category-puzzle.html" class="top-nav-item active">Puzzle</a>
+        <a href="category-simulation.html" class="top-nav-item ">Simulation</a>
+        <a href="category-adventure.html" class="top-nav-item ">Adventure</a>
+        <a href="category-shooter.html" class="top-nav-item ">Shooter</a>
+        <a href="category-racing-driving.html" class="top-nav-item ">Racing & Driving</a>
+        <div class="top-nav-dropdown ">
+          <button class="top-nav-dropdown-btn">More ▾</button>
+          <div class="top-nav-dropdown-content">
+            <a href="category-agility.html" class="">Agility</a>
+            <a href="category-dress-up.html" class="">Dress-up</a>
+            <a href="category-strategy.html" class="">Strategy</a>
+            <a href="category-match-3.html" class="">Match-3</a>
+            <a href="category-battle.html" class="">Battle</a>
+            <a href="category-io.html" class="">.IO</a>
+            <a href="category-educational.html" class="">Educational</a>
+            <a href="category-cards.html" class="">Cards</a>
+            <a href="category-merge.html" class="">Merge</a>
+            <a href="category-mahjong-connect.html" class="">Mahjong & Connect</a>
+            <a href="category-bubble-shooter.html" class="">Bubble Shooter</a>
+            <a href="category-cooking.html" class="">Cooking</a>
+            <a href="category-sports.html" class="">Sports</a>
+            <a href="category-care.html" class="">Care</a>
+            <a href="category-football.html" class="">Football</a>
+            <a href="category-jigsaw.html" class="">Jigsaw</a>
+            <a href="category-basketball.html" class="">Basketball</a>
+            <a href="category-art.html" class="">Art</a>
+            <a href="category-quiz.html" class="">Quiz</a>
+            <a href="category-boardgames.html" class="">Boardgames</a>
+          </div>
+        </div>
+        <div class="top-nav-dropdown ">
+          <button class="top-nav-dropdown-btn">About ▾</button>
+          <div class="top-nav-dropdown-content">
+            <a href="contact.html" class="">Contact Us</a>
+            <a href="privacy.html" class="">Privacy Policy</a>
+            <a href="terms.html" class="">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Puzzle Games</h1>
+    <p class="subtitle">Play the best free Puzzle games online on JoyBitX. Page 2 of our curated collection.</p>
+  </header>
+
+    <!-- Dedicated Search Bar Row -->
+  <div class="search-bar-row">
+    <div class="search-bar-row-container">
+      <input type="text" id="searchInput" placeholder="Search for your favorite games..." autocomplete="off">
+      <div id="searchSuggestions" class="search-suggestions"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+            <!-- Card: Draw And Escape -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/361.webp" alt="Draw And Escape Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Draw And Escape</h2>
+          <p class="card-description">Car Games: Draw And Escape is a collection of parking puzzle games and drawing puzzle games. Draw Bridge requires you to draw a line across a defined area to help the yellow car to the finish line. When you meet the steps, you can also draw bridges to build a track to the finish line. Use your creativity to design the perfect path to win! Parking Jam 2d requires you to help all cars out of the parking lot smoothly and pay attention to the order of cars, to prevent traffic accidents.</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="draw-and-escape.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Logic Blast Explorer -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/363.webp" alt="Logic Blast Explorer Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Logic Blast Explorer</h2>
+          <p class="card-description">A fresh twist on the classic block puzzle experience, featuring hundreds of handcrafted levels, relaxing yet strategic gameplay, world landmarks to collect, boosters and custom tile skins.</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="logic-blast-explorer.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Cityquest -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/374.webp" alt="Cityquest Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Cityquest</h2>
+          <p class="card-description">Guess the hidden city by using compass directions and unlocking helpful hints like continent, flag, time zone, and name clues.</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="cityquest.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Hexa Tile Trio -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/377.webp" alt="Hexa Tile Trio Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Hexa Tile Trio</h2>
+          <p class="card-description">Welcome to Hexa Tile Trio! Your goal is to clear the board by sorting hex tiles into groups of three. Tap a tile to move it to an empty or matching spot below. If no tiles fit, or you run out of space, the level fails. With a ticking clock and unique  puzzles, can you master the hex tiles before time runs out?</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="hexa-tile-trio.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Slime Attack: Puzzle! -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/382.webp" alt="Slime Attack: Puzzle! Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Slime Attack: Puzzle!</h2>
+          <p class="card-description">In this complete action, the play-heading playing you have to choose the right arrows and hit the corresponding slugs until it became too late. Calculate the time of shots, select colors and bring down arrows on top to protect your kingdom!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="slime-attack-puzzle.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Block Pixels -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/385.webp" alt="Block Pixels Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Block Pixels</h2>
+          <p class="card-description">Block Pixels is a vibrant puzzle game where classic block-clearing action meets the creative joy of pixel art discovery.
+
+Your main goal is to strategically place colorful pieces to clear lines on the board. But the real magic lies in what you clear. Each block you eliminate contributes to a larger masterpiece. Clearing specific colors helps you build and reveal dozens of charming hidden images, from cute animals to fun objects.</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="block-pixels.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Sticker Book Puzzle Color By Number -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/386.webp" alt="Sticker Book Puzzle Color By Number Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Sticker Book Puzzle Color By Number</h2>
+          <p class="card-description">Discover Sticker Book Puzzle: Color By Number, a unique blend of coloring and puzzles! Match stickers, solve brain-teasing challenges, and create stunning masterpieces. Relax with calming artwork and enjoy the fun of adult coloring like never before!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="sticker-book-puzzle-color-by-number.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Money Factory - Earn a Billion -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/387.webp" alt="Money Factory - Earn a Billion Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Money Factory - Earn a Billion</h2>
+          <p class="card-description">Prepare for a thrilling journey into the world of finance! As the owner of a money factory, you'll build and link mechanisms to boost your earnings with every step. Overcome exciting challenges where strategy is crucial to your success. Collect powerful boosters, create combos, and unlock new levels to discover even more ways to grow your fortune. Upgrade your factory to fast-track your rise to riches and become a financial powerhouse!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="money-factory-earn-a-billion.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Cube in Cube -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/391.webp" alt="Cube in Cube Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Cube in Cube</h2>
+          <p class="card-description">Play the new 2048 game with unique mechanics! Develop strategies to clear cubes in endless mode or rescue the monkey. Challenge yourself now!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="cube-in-cube.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Container Sort Puzzle -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/393.webp" alt="Container Sort Puzzle Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Container Sort Puzzle</h2>
+          <p class="card-description">Container Sort Puzzle - Sort All the Cargo!
+Get ready to test your brain with Container Sort Puzzle, the ultimate cargo-sorting challenge! Load the right containers onto the right ships and become a port master!
+Perfect for fans of sort games, stacking puzzles, and logic-based challenges. Whether you're a casual player or a seasoned puzzler, Container Sort Puzzle will keep your brain sharp and entertained.</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="container-sort-puzzle.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Dye It Right: Color Picker -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/397.webp" alt="Dye It Right: Color Picker Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Dye It Right: Color Picker</h2>
+          <p class="card-description">Welcome to the wonderful world of Dye It Right: Color Picker, where creativity meets fun! In this casual puzzle game, you’ll begin a colorful journey. This game is filled with exciting challenges designed for kids and the young at heart.</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="dye-it-right-color-picker.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Tangled Snakes - Sort Puzzle -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/398.webp" alt="Tangled Snakes - Sort Puzzle Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Tangled Snakes - Sort Puzzle</h2>
+          <p class="card-description">Untangle all the tangled snakes in this fun and satisfying puzzle game!
+
+Tangled Snakes – Sort Puzzle is a relaxing yet challenging brain teaser where you must sort and free the snakes from their tangled mess. Strategically move them in the correct order to clear each level and put your problem-solving skills to the test! Can you untangle them all?
+
+Features:
+Simple & intuitive controls!
+Mind-teasing gameplay!
+Hundreds of unique levels!
+Endless fun for all ages!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="tangled-snakes-sort-puzzle.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Astral Escape -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/400.webp" alt="Astral Escape Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Astral Escape</h2>
+          <p class="card-description">Astral Escape is a thrilling space game where you dodge asteroids, outsmart aliens, and survive cosmic traps in a fast escape game adventure. Explore galaxies in a sci-fi arcade escape with astronaut missions and star quests. Fans of cool math games, Roblox, Minecraft, snake game, or Kahoot-style challenges will enjoy this galaxy escape quest. Astral Escape blends action, strategy, and fun into one cosmic survival run.</p>
+          <div class="tag-container">
+            <span class="tag">Adventure</span>
+<span class="tag">Puzzle</span>
+          </div>
+          <a href="astral-escape.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Obby Rescue Pin -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/403.webp" alt="Obby Rescue Pin Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Obby Rescue Pin</h2>
+          <p class="card-description">Obby Rescue Pin is a brain-burning, high IQ puzzle game that is especially addictive. How you pull the pins to rescue the Obby depends entirely on your logic and strategy!
+Avoid Dangers: Navigate around bombs, ferocious animals, and deadly traps.
+Outsmart the Room: Unlike simple rope rescue games, this experience focuses more on strategic adventures.
+Help the Escape: Clear the path to help the Obby escape out of the dangerous room.</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Casual</span>
+          </div>
+          <a href="obby-rescue-pin.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Hangman Saga -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/404.webp" alt="Hangman Saga Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Hangman Saga</h2>
+          <p class="card-description">Challenge your vocabulary with Hangman Saga! With thousands of levels, each word includes a category hint to guide you—like "Profession" for "Doctor." Guess the letters wisely, but too many mistakes end the game! Need help? Use the hint button for a clue. Perfect for all ages, this fun and educational word puzzle will keep you entertained while sharpening your spelling skills. Can you solve them all?</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+<span class="tag">Educational</span>
+          </div>
+          <a href="hangman-saga.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Logic Storm: Animals Puzzle -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/409.webp" alt="Logic Storm: Animals Puzzle Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Logic Storm: Animals Puzzle</h2>
+          <p class="card-description">Logic Farm: Animal Grid Puzzle is a relaxing yet challenging logic puzzle game where your goal is to place cute animals on a grid following specific rules. With its soft pastel aesthetics and brain-teasing levels, it’s the perfect blend of cozy gaming and mental exercise. Can you find the perfect spot for every animal? Start sorting your farm today!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="logic-storm-animals-puzzle.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Sokoban P/R -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/410.webp" alt="Sokoban P/R Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Sokoban P/R</h2>
+          <p class="card-description">Help the adorable loader handle his daily tasks in the classic Sokoban puzzle! Enjoy simple design, clever challenges, and the ability to develop your own strategy. Levels will gradually expand, so you can always test your skills. The best puzzle solutions await you!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="sokoban-pr.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Royal Pin -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/418.webp" alt="Royal Pin Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Royal Pin</h2>
+          <p class="card-description">Royal Pin: King Adventure – A thrilling rescue puzzle game where you save the King, protect the kingdom, and rebuild the castle! Solve tricky pin puzzles, help the queen and princess, and become the ultimate king of this adventure!</p>
+          <div class="tag-container">
+            <span class="tag">Adventure</span>
+<span class="tag">Puzzle</span>
+          </div>
+          <a href="royal-pin.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Find the Sprunki -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/427.webp" alt="Find the Sprunki Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Find the Sprunki</h2>
+          <p class="card-description">Find out the hidden Sprunki in the specified images. Each level has 12 hidden Sprunki. There are 12 levels in total. The time is limited so be fast and find all hidden objects before time runs out. Clicking in the wrong place several times reduces the time by an additional 5 seconds. So, if you are ready, start the game and have fun!</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="find-the-sprunki.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card: Superwings ColorSwitch -->
+      <article class="card">
+        <div class="thumbnail-wrapper">
+          <img src="images/428.webp" alt="Superwings ColorSwitch Cover" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Superwings ColorSwitch</h2>
+          <p class="card-description">Guide Mini Super Pet Golden Boy through space avoiding all the traps to move forward. Dodge circles, barriers, boxes, and all kinds of obstacles</p>
+          <div class="tag-container">
+            <span class="tag">Puzzle</span>
+          </div>
+          <a href="superwings-colorswitch.html" class="play-btn">Play Now &rarr;</a>
+        </div>
+      </article>
+    </div>
+    <div class="pagination"><a href="category-puzzle.html" class="page-link page-arrow">&laquo; Prev</a><a href="category-puzzle.html" class="page-link">1</a><span class="page-link active">2</span><a href="category-puzzle-3.html" class="page-link">3</a><a href="category-puzzle-4.html" class="page-link">4</a><a href="category-puzzle-5.html" class="page-link">5</a><span class="page-link disabled">...</span><a href="category-puzzle-8.html" class="page-link">8</a><a href="category-puzzle-3.html" class="page-link page-arrow">Next &raquo;</a></div>
+  </div>
+
+  <footer>
+      <nav class="categories-nav">
+    <div class="categories-container">
+      <a href="index.html" class="category-link ">All Games</a>
+      <a href="category-io.html" class="category-link ">.IO</a>
+      <a href="category-adventure.html" class="category-link ">Adventure</a>
+      <a href="category-agility.html" class="category-link ">Agility</a>
+      <a href="category-art.html" class="category-link ">Art</a>
+      <a href="category-basketball.html" class="category-link ">Basketball</a>
+      <a href="category-battle.html" class="category-link ">Battle</a>
+      <a href="category-boardgames.html" class="category-link ">Boardgames</a>
+      <a href="category-bubble-shooter.html" class="category-link ">Bubble Shooter</a>
+      <a href="category-cards.html" class="category-link ">Cards</a>
+      <a href="category-care.html" class="category-link ">Care</a>
+      <a href="category-casual.html" class="category-link ">Casual</a>
+      <a href="category-cooking.html" class="category-link ">Cooking</a>
+      <a href="category-dress-up.html" class="category-link ">Dress-up</a>
+      <a href="category-educational.html" class="category-link ">Educational</a>
+      <a href="category-football.html" class="category-link ">Football</a>
+      <a href="category-jigsaw.html" class="category-link ">Jigsaw</a>
+      <a href="category-mahjong-connect.html" class="category-link ">Mahjong & Connect</a>
+      <a href="category-match-3.html" class="category-link ">Match-3</a>
+      <a href="category-merge.html" class="category-link ">Merge</a>
+      <a href="category-puzzle.html" class="category-link active">Puzzle</a>
+      <a href="category-quiz.html" class="category-link ">Quiz</a>
+      <a href="category-racing-driving.html" class="category-link ">Racing & Driving</a>
+      <a href="category-shooter.html" class="category-link ">Shooter</a>
+      <a href="category-simulation.html" class="category-link ">Simulation</a>
+      <a href="category-sports.html" class="category-link ">Sports</a>
+      <a href="category-strategy.html" class="category-link ">Strategy</a>
+    </div>
+  </nav>
+    <p style="margin-top: 15px;">&copy; 2026 Puzzle Games. Deployed on joybitx.github.io.</p>
+    <div class="footer-links" style="margin-top: 15px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; align-items: center;">
+  <a href="contact.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Contact Us</a>
+  <span style="color: rgba(255, 255, 255, 0.15);">|</span>
+  <a href="privacy.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Privacy Policy</a>
+  <span style="color: rgba(255, 255, 255, 0.15);">|</span>
+  <a href="terms.html" style="color: var(--text-gray); text-decoration: none; font-size: 0.9rem;">Terms of Service</a>
+</div>
+
+  </footer>
+
+  <script src="ads-manager.js" defer></script>
+  <script src="search.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const topNavToggle = document.getElementById('topNavToggle');
+      const topNavMenu = document.getElementById('topNavMenu');
+      if (topNavToggle && topNavMenu) {
+        topNavToggle.addEventListener('click', () => {
+          topNavMenu.classList.toggle('open');
+          topNavToggle.classList.toggle('active');
+        });
+      }
+    });
+  </script>
+</body>
+</html>

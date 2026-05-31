@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "the-patagonians",
+    "thumbnail": "https://joybitx.github.io/images/300.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "hidden-object-farm-adventure",
+    "thumbnail": "https://joybitx.github.io/images/301.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "my-happy-farm",
+    "thumbnail": "https://joybitx.github.io/images/302.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "darts-jam",
+    "thumbnail": "https://joybitx.github.io/images/303.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "word-stars",
+    "thumbnail": "https://joybitx.github.io/images/304.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "bubble-pop-fairyland",
+    "thumbnail": "https://joybitx.github.io/images/305.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "we-are-in-a-simulation-simulator",
+    "thumbnail": "https://joybitx.github.io/images/306.webp",
+    "genre": "Agility, Simulation"
+  },
+  {
+    "id": "uncle-hit-punch-the-dummy",
+    "thumbnail": "https://joybitx.github.io/images/307.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "horror-hotel-scary-room",
+    "thumbnail": "https://joybitx.github.io/images/308.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "papas-burger-cook",
+    "thumbnail": "https://joybitx.github.io/images/309.webp",
+    "genre": "Cooking, Simulation"
+  },
+  {
+    "id": "italian-brainrot-find-the-stars",
+    "thumbnail": "https://joybitx.github.io/images/310.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "pato-vs-cops",
+    "thumbnail": "https://joybitx.github.io/images/311.webp",
+    "genre": ".IO"
+  },
+  {
+    "id": "cosmos-404",
+    "thumbnail": "https://joybitx.github.io/images/312.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "maido",
+    "thumbnail": "https://joybitx.github.io/images/313.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "match-masters",
+    "thumbnail": "https://joybitx.github.io/images/314.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "red-escape",
+    "thumbnail": "https://joybitx.github.io/images/315.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "meme-mukbang-asmr-game",
+    "thumbnail": "https://joybitx.github.io/images/316.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "thumbpinball",
+    "thumbnail": "https://joybitx.github.io/images/317.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "tralala-connect",
+    "thumbnail": "https://joybitx.github.io/images/318.webp",
+    "genre": "Puzzle, Educational"
+  },
+  {
+    "id": "tow-n-go",
+    "thumbnail": "https://joybitx.github.io/images/319.webp",
+    "genre": "Racing & Driving, Simulation"
+  },
+  {
+    "id": "blue-hedgehog-hill-dash-ride",
+    "thumbnail": "https://joybitx.github.io/images/320.webp",
+    "genre": "Adventure, Racing & Driving"
+  },
+  {
+    "id": "roller-coaster-rush",
+    "thumbnail": "https://joybitx.github.io/images/321.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "city-gas-station-simulator",
+    "thumbnail": "https://joybitx.github.io/images/322.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "park-me-draw-path",
+    "thumbnail": "https://joybitx.github.io/images/323.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "island-expander",
+    "thumbnail": "https://joybitx.github.io/images/324.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "puppy-treat-sorting",
+    "thumbnail": "https://joybitx.github.io/images/325.webp",
+    "genre": "Match-3, Merge"
+  },
+  {
+    "id": "block-merge-city",
+    "thumbnail": "https://joybitx.github.io/images/326.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "flower-fairy-adventure-story",
+    "thumbnail": "https://joybitx.github.io/images/327.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "queens-royal-sudoku-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/328.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "super-slime",
+    "thumbnail": "https://joybitx.github.io/images/329.webp",
+    "genre": "Agility"
+  },
+  {
+    "id": "squid-game-craft-runner",
+    "thumbnail": "https://joybitx.github.io/images/330.webp",
+    "genre": ".IO, Casual"
+  },
+  {
+    "id": "fruite-swipe",
+    "thumbnail": "https://joybitx.github.io/images/331.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "wheel-in-the-face",
+    "thumbnail": "https://joybitx.github.io/images/332.webp",
+    "genre": "Battle"
+  },
+  {
+    "id": "escape-from-the-portal",
+    "thumbnail": "https://joybitx.github.io/images/333.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "fruit-match-juicy-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/334.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "world-cup-soccer-caps",
+    "thumbnail": "https://joybitx.github.io/images/335.webp",
+    "genre": "Football, Casual"
+  },
+  {
+    "id": "1945-air-force-space-shooter",
+    "thumbnail": "https://joybitx.github.io/images/336.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "obby-gym-simulator-escape",
+    "thumbnail": "https://joybitx.github.io/images/337.webp",
+    "genre": ".IO, Agility"
+  },
+  {
+    "id": "paperwario",
+    "thumbnail": "https://joybitx.github.io/images/338.webp",
+    "genre": ".IO"
+  },
+  {
+    "id": "jewel-link",
+    "thumbnail": "https://joybitx.github.io/images/339.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "supermarket-sort-grocery-game",
+    "thumbnail": "https://joybitx.github.io/images/340.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "block-builder-jam",
+    "thumbnail": "https://joybitx.github.io/images/341.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "mojicon-winter-connect",
+    "thumbnail": "https://joybitx.github.io/images/342.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "arrow-sorting",
+    "thumbnail": "https://joybitx.github.io/images/343.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "italian-brainrot-neuro-beasts",
+    "thumbnail": "https://joybitx.github.io/images/344.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "crash-the-robot",
+    "thumbnail": "https://joybitx.github.io/images/345.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "dreams",
+    "thumbnail": "https://joybitx.github.io/images/346.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "aloha-mahjong",
+    "thumbnail": "https://joybitx.github.io/images/347.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "screw-color-sorting-master",
+    "thumbnail": "https://joybitx.github.io/images/348.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "halloween-store-sort",
+    "thumbnail": "https://joybitx.github.io/images/349.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "archery-legends",
+    "thumbnail": "https://joybitx.github.io/images/350.webp",
+    "genre": "Sports"
+  },
+  {
+    "id": "scary-pairs",
+    "thumbnail": "https://joybitx.github.io/images/351.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "capybara-screw-jam",
+    "thumbnail": "https://joybitx.github.io/images/352.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "daddy-cactus",
+    "thumbnail": "https://joybitx.github.io/images/353.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "mega-ramps-ultimate-car-races",
+    "thumbnail": "https://joybitx.github.io/images/354.webp",
+    "genre": "Racing & Driving, .IO"
+  },
+  {
+    "id": "water-shooter",
+    "thumbnail": "https://joybitx.github.io/images/355.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "chinese-food-chef-dudu",
+    "thumbnail": "https://joybitx.github.io/images/356.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "jigsaw-cards-daily-puzzles",
+    "thumbnail": "https://joybitx.github.io/images/357.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "furry-wedding-proposal",
+    "thumbnail": "https://joybitx.github.io/images/358.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "autumn-glam-gala",
+    "thumbnail": "https://joybitx.github.io/images/359.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "the-counterfeit-bank",
+    "thumbnail": "https://joybitx.github.io/images/360.webp",
+    "genre": "Strategy"
+  },
+  {
+    "id": "draw-and-escape",
+    "thumbnail": "https://joybitx.github.io/images/361.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "math-wall-simulator",
+    "thumbnail": "https://joybitx.github.io/images/362.webp",
+    "genre": "Casual, Educational"
+  },
+  {
+    "id": "logic-blast-explorer",
+    "thumbnail": "https://joybitx.github.io/images/363.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "doge-bubble",
+    "thumbnail": "https://joybitx.github.io/images/364.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "magic-beauty-makeup",
+    "thumbnail": "https://joybitx.github.io/images/365.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "slope-spooky",
+    "thumbnail": "https://joybitx.github.io/images/366.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "ninja-dash-cozy-tactic-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/367.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "hide-me",
+    "thumbnail": "https://joybitx.github.io/images/368.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "barbee-met-gala-transformation",
+    "thumbnail": "https://joybitx.github.io/images/369.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "bubble-it-jam",
+    "thumbnail": "https://joybitx.github.io/images/370.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "mushroom-blocks",
+    "thumbnail": "https://joybitx.github.io/images/371.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "italian-brainrot-jigsaw",
+    "thumbnail": "https://joybitx.github.io/images/372.webp",
+    "genre": "Jigsaw"
+  },
+  {
+    "id": "money-chaser-city-parkour-game",
+    "thumbnail": "https://joybitx.github.io/images/373.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "cityquest",
+    "thumbnail": "https://joybitx.github.io/images/374.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "mega-prize-scratch",
+    "thumbnail": "https://joybitx.github.io/images/375.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "apocalypse-shelter",
+    "thumbnail": "https://joybitx.github.io/images/376.webp",
+    "genre": "Battle, Strategy"
+  },
+  {
+    "id": "hexa-tile-trio",
+    "thumbnail": "https://joybitx.github.io/images/377.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "agents-io",
+    "thumbnail": "https://joybitx.github.io/images/378.webp",
+    "genre": ".IO, Casual"
+  },
+  {
+    "id": "bunnys-farm",
+    "thumbnail": "https://joybitx.github.io/images/379.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "goal-rush",
+    "thumbnail": "https://joybitx.github.io/images/380.webp",
+    "genre": "Football, Casual"
+  },
+  {
+    "id": "stick-archer-online",
+    "thumbnail": "https://joybitx.github.io/images/381.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "slime-attack-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/382.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "solitaire-summer-klondike",
+    "thumbnail": "https://joybitx.github.io/images/383.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "one-hero",
+    "thumbnail": "https://joybitx.github.io/images/384.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "block-pixels",
+    "thumbnail": "https://joybitx.github.io/images/385.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "sticker-book-puzzle-color-by-number",
+    "thumbnail": "https://joybitx.github.io/images/386.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "money-factory-earn-a-billion",
+    "thumbnail": "https://joybitx.github.io/images/387.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "mr-disc-slingshot-strike",
+    "thumbnail": "https://joybitx.github.io/images/388.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "geometry-rush",
+    "thumbnail": "https://joybitx.github.io/images/389.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "tanks-merge-tank-war-blitz",
+    "thumbnail": "https://joybitx.github.io/images/390.webp",
+    "genre": "Battle, Casual"
+  },
+  {
+    "id": "cube-in-cube",
+    "thumbnail": "https://joybitx.github.io/images/391.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "ugc-math-race",
+    "thumbnail": "https://joybitx.github.io/images/392.webp",
+    "genre": ".IO, Educational"
+  },
+  {
+    "id": "container-sort-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/393.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "gun-evolution",
+    "thumbnail": "https://joybitx.github.io/images/394.webp",
+    "genre": "Shooter, Strategy"
+  },
+  {
+    "id": "frost-defense",
+    "thumbnail": "https://joybitx.github.io/images/395.webp",
+    "genre": "Casual, Strategy"
+  },
+  {
+    "id": "fun-mini-games-for-princess",
+    "thumbnail": "https://joybitx.github.io/images/396.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "dye-it-right-color-picker",
+    "thumbnail": "https://joybitx.github.io/images/397.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "tangled-snakes-sort-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/398.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "bubble-shooter-wild-west",
+    "thumbnail": "https://joybitx.github.io/images/399.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "astral-escape",
+    "thumbnail": "https://joybitx.github.io/images/400.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "dream-restaurant-3d",
+    "thumbnail": "https://joybitx.github.io/images/401.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "sea-lords",
+    "thumbnail": "https://joybitx.github.io/images/402.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "obby-rescue-pin",
+    "thumbnail": "https://joybitx.github.io/images/403.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "hangman-saga",
+    "thumbnail": "https://joybitx.github.io/images/404.webp",
+    "genre": "Puzzle, Educational"
+  },
+  {
+    "id": "asmr-pet-treatment",
+    "thumbnail": "https://joybitx.github.io/images/405.webp",
+    "genre": "Care, Dress-up"
+  },
+  {
+    "id": "tralala-la-la-la-italiano",
+    "thumbnail": "https://joybitx.github.io/images/406.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "bombaman-3d",
+    "thumbnail": "https://joybitx.github.io/images/407.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "3dash",
+    "thumbnail": "https://joybitx.github.io/images/408.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "logic-storm-animals-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/409.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "sokoban-pr",
+    "thumbnail": "https://joybitx.github.io/images/410.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "dino-hide-n-shoot",
+    "thumbnail": "https://joybitx.github.io/images/411.webp",
+    "genre": "Adventure, Shooter"
+  },
+  {
+    "id": "my-hospital-learn-care",
+    "thumbnail": "https://joybitx.github.io/images/412.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "ragdoll-mania",
+    "thumbnail": "https://joybitx.github.io/images/413.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "us-army-car-games-truck-driving",
+    "thumbnail": "https://joybitx.github.io/images/414.webp",
+    "genre": "Adventure, .IO"
+  },
+  {
+    "id": "spaceio",
+    "thumbnail": "https://joybitx.github.io/images/415.webp",
+    "genre": "Shooter, .IO"
+  },
+  {
+    "id": "match-dream-garden",
+    "thumbnail": "https://joybitx.github.io/images/416.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "physics-box-2",
+    "thumbnail": "https://joybitx.github.io/images/417.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "royal-pin",
+    "thumbnail": "https://joybitx.github.io/images/418.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "smoke-trail",
+    "thumbnail": "https://joybitx.github.io/images/419.webp",
+    "genre": "Racing & Driving, Casual"
+  },
+  {
+    "id": "wolf-life-simulator",
+    "thumbnail": "https://joybitx.github.io/images/420.webp",
+    "genre": "Adventure, Simulation"
+  },
+  {
+    "id": "stunt-multiplayer-arena",
+    "thumbnail": "https://joybitx.github.io/images/421.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "monster-arena",
+    "thumbnail": "https://joybitx.github.io/images/422.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "idle-lunch",
+    "thumbnail": "https://joybitx.github.io/images/423.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "poppy-strike-5",
+    "thumbnail": "https://joybitx.github.io/images/424.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "ball-mania",
+    "thumbnail": "https://joybitx.github.io/images/425.webp",
+    "genre": "Racing & Driving, Casual"
+  },
+  {
+    "id": "car-fighter",
+    "thumbnail": "https://joybitx.github.io/images/426.webp",
+    "genre": "Racing & Driving, Casual"
+  },
+  {
+    "id": "find-the-sprunki",
+    "thumbnail": "https://joybitx.github.io/images/427.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "superwings-colorswitch",
+    "thumbnail": "https://joybitx.github.io/images/428.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "perfect-shot",
+    "thumbnail": "https://joybitx.github.io/images/429.webp",
+    "genre": "Puzzle, Sports"
+  },
+  {
+    "id": "crafty-town-merge-city",
+    "thumbnail": "https://joybitx.github.io/images/430.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "animal-sort-cute-puzzle-game",
+    "thumbnail": "https://joybitx.github.io/images/431.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "car-dealer-idle",
+    "thumbnail": "https://joybitx.github.io/images/432.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "fashion-challenge-catwalk-run",
+    "thumbnail": "https://joybitx.github.io/images/433.webp",
+    "genre": "Dress-up, Simulation"
+  },
+  {
+    "id": "fantasy-math-number",
+    "thumbnail": "https://joybitx.github.io/images/434.webp",
+    "genre": "Educational"
+  },
+  {
+    "id": "color-wavee",
+    "thumbnail": "https://joybitx.github.io/images/435.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "zig-snake",
+    "thumbnail": "https://joybitx.github.io/images/436.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "sausage-flip-free",
+    "thumbnail": "https://joybitx.github.io/images/437.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "boo-tiful-princess-match",
+    "thumbnail": "https://joybitx.github.io/images/438.webp",
+    "genre": "Puzzle, Dress-up"
+  },
+  {
+    "id": "save-seafood",
+    "thumbnail": "https://joybitx.github.io/images/439.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "spooky-link",
+    "thumbnail": "https://joybitx.github.io/images/440.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "little-master-of-assembly",
+    "thumbnail": "https://joybitx.github.io/images/441.webp",
+    "genre": "Puzzle, Dress-up"
+  },
+  {
+    "id": "drive-in-cinema-idle-game",
+    "thumbnail": "https://joybitx.github.io/images/442.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "about-a-frog",
+    "thumbnail": "https://joybitx.github.io/images/443.webp",
+    "genre": "Casual, Strategy"
+  },
+  {
+    "id": "bottle-challenge",
+    "thumbnail": "https://joybitx.github.io/images/444.webp",
+    "genre": "Puzzle, Educational"
+  },
+  {
+    "id": "path-ice",
+    "thumbnail": "https://joybitx.github.io/images/445.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "vibrant-hearts-glamour-vs-punk",
+    "thumbnail": "https://joybitx.github.io/images/446.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "metaxis",
+    "thumbnail": "https://joybitx.github.io/images/447.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "digger-fighter-in-the-maze",
+    "thumbnail": "https://joybitx.github.io/images/448.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "tile-hex-world-red-vs-blue",
+    "thumbnail": "https://joybitx.github.io/images/449.webp",
+    "genre": "Strategy"
+  },
+  {
+    "id": "detective-logic-puzzles",
+    "thumbnail": "https://joybitx.github.io/images/450.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "lost-puppy-rescue-and-care",
+    "thumbnail": "https://joybitx.github.io/images/451.webp",
+    "genre": "Dress-up, Simulation"
+  },
+  {
+    "id": "block-mania",
+    "thumbnail": "https://joybitx.github.io/images/452.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "ole-bunny",
+    "thumbnail": "https://joybitx.github.io/images/453.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "run-3d",
+    "thumbnail": "https://joybitx.github.io/images/454.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "emoji-drop-themes",
+    "thumbnail": "https://joybitx.github.io/images/455.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "card-battle",
+    "thumbnail": "https://joybitx.github.io/images/456.webp",
+    "genre": "Puzzle, Racing & Driving"
+  },
+  {
+    "id": "brainrot-mob-clash-3d",
+    "thumbnail": "https://joybitx.github.io/images/457.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "merge-the-coins-ussr",
+    "thumbnail": "https://joybitx.github.io/images/458.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "candy-doll-dress-up",
+    "thumbnail": "https://joybitx.github.io/images/459.webp",
+    "genre": "Casual, Dress-up"
+  },
+  {
+    "id": "color-hoop-sort",
+    "thumbnail": "https://joybitx.github.io/images/460.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "master-addiction-solitaire",
+    "thumbnail": "https://joybitx.github.io/images/461.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "squarehead-hero",
+    "thumbnail": "https://joybitx.github.io/images/462.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "cube-to-hole-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/463.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "space-survivor",
+    "thumbnail": "https://joybitx.github.io/images/464.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "physics-balls",
+    "thumbnail": "https://joybitx.github.io/images/465.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "buckshot-roulette",
+    "thumbnail": "https://joybitx.github.io/images/466.webp",
+    "genre": "Puzzle, Simulation"
+  },
+  {
+    "id": "bed-wars",
+    "thumbnail": "https://joybitx.github.io/images/467.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "obby-halloween-danger-skate",
+    "thumbnail": "https://joybitx.github.io/images/468.webp",
+    "genre": "Casual, Strategy"
+  },
+  {
+    "id": "sophies-farm",
+    "thumbnail": "https://joybitx.github.io/images/469.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "ball-bunker-sneaky-stacks",
+    "thumbnail": "https://joybitx.github.io/images/470.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "thread-match-2",
+    "thumbnail": "https://joybitx.github.io/images/471.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "the-white-room-5",
+    "thumbnail": "https://joybitx.github.io/images/472.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "big-head",
+    "thumbnail": "https://joybitx.github.io/images/473.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "solitaire-deluxe-edition",
+    "thumbnail": "https://joybitx.github.io/images/474.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "robot-terminator-t-rex",
+    "thumbnail": "https://joybitx.github.io/images/475.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "slide-block-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/476.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "kitty-couple-lovely-valentine",
+    "thumbnail": "https://joybitx.github.io/images/477.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "vex-x3m-2",
+    "thumbnail": "https://joybitx.github.io/images/478.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "tap-to-color-painting-book",
+    "thumbnail": "https://joybitx.github.io/images/479.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "graduation-makeup-trends",
+    "thumbnail": "https://joybitx.github.io/images/480.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "little-hero-knight",
+    "thumbnail": "https://joybitx.github.io/images/481.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "asmr-girl-livestream-mukbang",
+    "thumbnail": "https://joybitx.github.io/images/482.webp",
+    "genre": "Cooking, Simulation"
+  },
+  {
+    "id": "football-legends-2026",
+    "thumbnail": "https://joybitx.github.io/images/483.webp",
+    "genre": "Football"
+  },
+  {
+    "id": "madness-sheriffs-compound-official",
+    "thumbnail": "https://joybitx.github.io/images/484.webp",
+    "genre": "Shooter, Simulation"
+  },
+  {
+    "id": "hidden-object-clues-and-mysteries",
+    "thumbnail": "https://joybitx.github.io/images/485.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "bubble-sorting-infinite-remastered",
+    "thumbnail": "https://joybitx.github.io/images/486.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "doge-rush-draw-home-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/487.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "coffee-match-rush-sort-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/488.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "sprunki-puzzles-and-singing",
+    "thumbnail": "https://joybitx.github.io/images/489.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "mine-sweeper",
+    "thumbnail": "https://joybitx.github.io/images/490.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "cat-life-simulator",
+    "thumbnail": "https://joybitx.github.io/images/491.webp",
+    "genre": "Adventure, Simulation"
+  },
+  {
+    "id": "geometry-dash-maze-maps-v2",
+    "thumbnail": "https://joybitx.github.io/images/492.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "mr-bullet-stealth-ninja-killstreak",
+    "thumbnail": "https://joybitx.github.io/images/493.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "thread-sort",
+    "thumbnail": "https://joybitx.github.io/images/494.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "blox-fruits",
+    "thumbnail": "https://joybitx.github.io/images/495.webp",
+    "genre": "Adventure, Battle"
+  },
+  {
+    "id": "space-shift",
+    "thumbnail": "https://joybitx.github.io/images/496.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "powerwash-simulator-3d-wash",
+    "thumbnail": "https://joybitx.github.io/images/497.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "candy-cascade",
+    "thumbnail": "https://joybitx.github.io/images/498.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "go-to-zero",
+    "thumbnail": "https://joybitx.github.io/images/499.webp",
+    "genre": "Puzzle, Educational"
+  },
+  {
+    "id": "pipe-puzzle-connect-flow",
+    "thumbnail": "https://joybitx.github.io/images/500.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "tiny-baker-rainbow-buttercream-cake",
+    "thumbnail": "https://joybitx.github.io/images/501.webp",
+    "genre": "Cooking"
+  },
+  {
+    "id": "feet-doctor-urgency-care",
+    "thumbnail": "https://joybitx.github.io/images/502.webp",
+    "genre": "Care, Simulation"
+  },
+  {
+    "id": "supermarket-cashier-simulator",
+    "thumbnail": "https://joybitx.github.io/images/503.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "mahjong-connect-majong-class",
+    "thumbnail": "https://joybitx.github.io/images/504.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "two-dots-remastered",
+    "thumbnail": "https://joybitx.github.io/images/505.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "association-connect-word",
+    "thumbnail": "https://joybitx.github.io/images/506.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "matching-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/507.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "zip-zap",
+    "thumbnail": "https://joybitx.github.io/images/508.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "snake-out",
+    "thumbnail": "https://joybitx.github.io/images/509.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "ohpeach-it",
+    "thumbnail": "https://joybitx.github.io/images/510.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "merge-haven",
+    "thumbnail": "https://joybitx.github.io/images/511.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "alien-wreckage-1",
+    "thumbnail": "https://joybitx.github.io/images/512.webp",
+    "genre": "Adventure, Shooter"
+  },
+  {
+    "id": "solitaire-farm-seasons-4",
+    "thumbnail": "https://joybitx.github.io/images/513.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "bolts",
+    "thumbnail": "https://joybitx.github.io/images/514.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "party-games-mini-shooter-battle",
+    "thumbnail": "https://joybitx.github.io/images/515.webp",
+    "genre": "Battle"
+  },
+  {
+    "id": "gun-shooting-range",
+    "thumbnail": "https://joybitx.github.io/images/516.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "moto-road-rash-3d-2",
+    "thumbnail": "https://joybitx.github.io/images/517.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "bubble-sky",
+    "thumbnail": "https://joybitx.github.io/images/518.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "turbo-trucks-race",
+    "thumbnail": "https://joybitx.github.io/images/519.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "best-classic-freecell-solitaire",
+    "thumbnail": "https://joybitx.github.io/images/520.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "puzzle-lab",
+    "thumbnail": "https://joybitx.github.io/images/521.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "battle-zone-2d",
+    "thumbnail": "https://joybitx.github.io/images/522.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "kinder-garden",
+    "thumbnail": "https://joybitx.github.io/images/523.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "fruit-candy-merge",
+    "thumbnail": "https://joybitx.github.io/images/524.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "idle-bathroom-empire-tycoon",
+    "thumbnail": "https://joybitx.github.io/images/525.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "sand-blast-block-game",
+    "thumbnail": "https://joybitx.github.io/images/526.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "save-baby-capybaras-pull-pin",
+    "thumbnail": "https://joybitx.github.io/images/527.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "galaxy-clicker",
+    "thumbnail": "https://joybitx.github.io/images/528.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "wood-screw-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/529.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "magic-sort",
+    "thumbnail": "https://joybitx.github.io/images/530.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "fish-rain-2",
+    "thumbnail": "https://joybitx.github.io/images/531.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "politon",
+    "thumbnail": "https://joybitx.github.io/images/532.webp",
+    "genre": "Strategy"
+  },
+  {
+    "id": "ragdoll-show-throw-break-and-destroy",
+    "thumbnail": "https://joybitx.github.io/images/533.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "find-sort-match",
+    "thumbnail": "https://joybitx.github.io/images/534.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "bike-stunt-racing-legend",
+    "thumbnail": "https://joybitx.github.io/images/535.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "lollipop-stack-run",
+    "thumbnail": "https://joybitx.github.io/images/536.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "police-traffic-racer",
+    "thumbnail": "https://joybitx.github.io/images/537.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "bubiloons",
+    "thumbnail": "https://joybitx.github.io/images/538.webp",
+    "genre": "Care, Simulation"
+  },
+  {
+    "id": "magic-finger-puzzle-3d",
+    "thumbnail": "https://joybitx.github.io/images/539.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "escape-the-horror-craft",
+    "thumbnail": "https://joybitx.github.io/images/540.webp",
+    "genre": "Adventure, Simulation"
+  },
+  {
+    "id": "superhero-phone-simulator",
+    "thumbnail": "https://joybitx.github.io/images/541.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "hair-salon-beauty-salon",
+    "thumbnail": "https://joybitx.github.io/images/542.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "cooking-empire",
+    "thumbnail": "https://joybitx.github.io/images/543.webp",
+    "genre": "Cooking"
+  },
+  {
+    "id": "dig-out-of-prison",
+    "thumbnail": "https://joybitx.github.io/images/544.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "caterfall-2048",
+    "thumbnail": "https://joybitx.github.io/images/545.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "idle-hotel-empire",
+    "thumbnail": "https://joybitx.github.io/images/546.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "obby-modes-online-mini-games",
+    "thumbnail": "https://joybitx.github.io/images/547.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "fix-da-brainrot",
+    "thumbnail": "https://joybitx.github.io/images/548.webp",
+    "genre": "Jigsaw"
+  },
+  {
+    "id": "dynamons-connect",
+    "thumbnail": "https://joybitx.github.io/images/549.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "lulus-fashion-world",
+    "thumbnail": "https://joybitx.github.io/images/550.webp",
+    "genre": "Casual, Dress-up"
+  },
+  {
+    "id": "mr-bounce",
+    "thumbnail": "https://joybitx.github.io/images/551.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "dop-puzzle-erase-master",
+    "thumbnail": "https://joybitx.github.io/images/552.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "bouncepop-quest",
+    "thumbnail": "https://joybitx.github.io/images/553.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "outside",
+    "thumbnail": "https://joybitx.github.io/images/554.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "stickman-rogue-online",
+    "thumbnail": "https://joybitx.github.io/images/555.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "hair-stack-3d",
+    "thumbnail": "https://joybitx.github.io/images/556.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "jungle-match-adventures",
+    "thumbnail": "https://joybitx.github.io/images/557.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "save-little-red-hood",
+    "thumbnail": "https://joybitx.github.io/images/558.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "sneaker-art",
+    "thumbnail": "https://joybitx.github.io/images/559.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "halloween-stickman-2",
+    "thumbnail": "https://joybitx.github.io/images/560.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "motor-tour",
+    "thumbnail": "https://joybitx.github.io/images/561.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "billiard-diamond-challenge",
+    "thumbnail": "https://joybitx.github.io/images/562.webp",
+    "genre": "Sports, Casual"
+  },
+  {
+    "id": "color-block-sort",
+    "thumbnail": "https://joybitx.github.io/images/563.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "flip-knife",
+    "thumbnail": "https://joybitx.github.io/images/564.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "boolu-bask",
+    "thumbnail": "https://joybitx.github.io/images/565.webp",
+    "genre": "Basketball"
+  },
+  {
+    "id": "italian-brainrot-puzzle-battle",
+    "thumbnail": "https://joybitx.github.io/images/566.webp",
+    "genre": "Puzzle, Battle"
+  },
+  {
+    "id": "zombie-highway-rampage",
+    "thumbnail": "https://joybitx.github.io/images/567.webp",
+    "genre": "Racing & Driving, Shooter"
+  },
+  {
+    "id": "hostage-fishes",
+    "thumbnail": "https://joybitx.github.io/images/568.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "snake-masters",
+    "thumbnail": "https://joybitx.github.io/images/569.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "skyscraper-to-the-sky",
+    "thumbnail": "https://joybitx.github.io/images/570.webp",
+    "genre": "Agility"
+  },
+  {
+    "id": "mahjong-3d-match",
+    "thumbnail": "https://joybitx.github.io/images/571.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "cozy-kitchen-merge",
+    "thumbnail": "https://joybitx.github.io/images/572.webp",
+    "genre": "Cooking, Merge"
+  },
+  {
+    "id": "farmer-pedro",
+    "thumbnail": "https://joybitx.github.io/images/573.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "car-mechanic-simulator-2025",
+    "thumbnail": "https://joybitx.github.io/images/574.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "maze-escape-challenge",
+    "thumbnail": "https://joybitx.github.io/images/575.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "candy-maker-dessert-games",
+    "thumbnail": "https://joybitx.github.io/images/576.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "brainrot-evolution",
+    "thumbnail": "https://joybitx.github.io/images/577.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "online-cats-multiplayer-park",
+    "thumbnail": "https://joybitx.github.io/images/578.webp",
+    "genre": ".IO, Casual"
+  },
+  {
+    "id": "anime-couple-avatar-maker",
+    "thumbnail": "https://joybitx.github.io/images/579.webp",
+    "genre": "Casual, Dress-up"
+  },
+  {
+    "id": "froggy-hop",
+    "thumbnail": "https://joybitx.github.io/images/580.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "tank-sniper-3d",
+    "thumbnail": "https://joybitx.github.io/images/581.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "lost-adventure",
+    "thumbnail": "https://joybitx.github.io/images/582.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "cinema-business-idle-games",
+    "thumbnail": "https://joybitx.github.io/images/583.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "cargo-skates",
+    "thumbnail": "https://joybitx.github.io/images/584.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "bitgoblins-rpg-simulator",
+    "thumbnail": "https://joybitx.github.io/images/585.webp",
+    "genre": "Adventure, Simulation"
+  },
+  {
+    "id": "sprunki-coloring-book",
+    "thumbnail": "https://joybitx.github.io/images/586.webp",
+    "genre": "Art, Educational"
+  },
+  {
+    "id": "ping-pong-air",
+    "thumbnail": "https://joybitx.github.io/images/587.webp",
+    "genre": "Sports"
+  },
+  {
+    "id": "sniper-3d-zombie",
+    "thumbnail": "https://joybitx.github.io/images/588.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "fashion-famous",
+    "thumbnail": "https://joybitx.github.io/images/589.webp",
+    "genre": "Dress-up, Simulation"
+  },
+  {
+    "id": "simon-super-rabbit",
+    "thumbnail": "https://joybitx.github.io/images/590.webp",
+    "genre": "Adventure, Educational"
+  },
+  {
+    "id": "elemental-gloves-magic-power",
+    "thumbnail": "https://joybitx.github.io/images/591.webp",
+    "genre": "Battle"
+  },
+  {
+    "id": "unpuzzle-master",
+    "thumbnail": "https://joybitx.github.io/images/592.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "quizmania-trivia-game",
+    "thumbnail": "https://joybitx.github.io/images/593.webp",
+    "genre": "Quiz"
+  },
+  {
+    "id": "epic-mine",
+    "thumbnail": "https://joybitx.github.io/images/594.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "color-block-jam-2",
+    "thumbnail": "https://joybitx.github.io/images/595.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "100-rooms-escape",
+    "thumbnail": "https://joybitx.github.io/images/596.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "fix-the-hoof",
+    "thumbnail": "https://joybitx.github.io/images/597.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "count-master-match-color-run",
+    "thumbnail": "https://joybitx.github.io/images/598.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "qube-2048",
+    "thumbnail": "https://joybitx.github.io/images/599.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "mini-games-casual-collection",
+    "thumbnail": "https://joybitx.github.io/images/600.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "miners-fury",
+    "thumbnail": "https://joybitx.github.io/images/601.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "super-brain",
+    "thumbnail": "https://joybitx.github.io/images/602.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "bomb-head-hot-potato",
+    "thumbnail": "https://joybitx.github.io/images/603.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "cat-life-simulator-devil-cat",
+    "thumbnail": "https://joybitx.github.io/images/604.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "pin-detective",
+    "thumbnail": "https://joybitx.github.io/images/605.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "hexa-sort-master",
+    "thumbnail": "https://joybitx.github.io/images/606.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "bus-stop-color-jam",
+    "thumbnail": "https://joybitx.github.io/images/607.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "letters-match",
+    "thumbnail": "https://joybitx.github.io/images/608.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "construction-truck-building-games-for-kids",
+    "thumbnail": "https://joybitx.github.io/images/609.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "cute-cats-adventures",
+    "thumbnail": "https://joybitx.github.io/images/610.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "space-shooter-speed-typing-challenge",
+    "thumbnail": "https://joybitx.github.io/images/611.webp",
+    "genre": "Shooter, Educational"
+  },
+  {
+    "id": "speed-run-3d",
+    "thumbnail": "https://joybitx.github.io/images/612.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "love-archer",
+    "thumbnail": "https://joybitx.github.io/images/613.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "blowup-atm",
+    "thumbnail": "https://joybitx.github.io/images/614.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "backrooms-skibidi-terrors",
+    "thumbnail": "https://joybitx.github.io/images/615.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "mutant-assassin-3d",
+    "thumbnail": "https://joybitx.github.io/images/616.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "brain-find-can-you-find-it",
+    "thumbnail": "https://joybitx.github.io/images/617.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "cleaning-princess",
+    "thumbnail": "https://joybitx.github.io/images/618.webp",
+    "genre": "Care, Casual"
+  },
+  {
+    "id": "reach-2048",
+    "thumbnail": "https://joybitx.github.io/images/619.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "solitaire-tail",
+    "thumbnail": "https://joybitx.github.io/images/620.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "save-my-hero",
+    "thumbnail": "https://joybitx.github.io/images/621.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "obstacle-car-driving",
+    "thumbnail": "https://joybitx.github.io/images/622.webp",
+    "genre": "Adventure, Racing & Driving"
+  },
+  {
+    "id": "xmas-hexa-sort",
+    "thumbnail": "https://joybitx.github.io/images/623.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "chicken-wild-run",
+    "thumbnail": "https://joybitx.github.io/images/624.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "farm-mahjong-3d",
+    "thumbnail": "https://joybitx.github.io/images/625.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "roblox-halloween-costume-party",
+    "thumbnail": "https://joybitx.github.io/images/626.webp",
+    "genre": "Casual, Dress-up"
+  },
+  {
+    "id": "choo-choo-spider-monster-train",
+    "thumbnail": "https://joybitx.github.io/images/627.webp",
+    "genre": "Shooter, Simulation"
+  },
+  {
+    "id": "jewel-solitaire-tripeaks",
+    "thumbnail": "https://joybitx.github.io/images/628.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "uncle-bullet-007",
+    "thumbnail": "https://joybitx.github.io/images/629.webp",
+    "genre": "Puzzle, Shooter"
+  },
+  {
+    "id": "fire-ball-and-water-ball-parkour-love-balls",
+    "thumbnail": "https://joybitx.github.io/images/630.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "majestic-dragons-merge",
+    "thumbnail": "https://joybitx.github.io/images/631.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "fruit-jam-master",
+    "thumbnail": "https://joybitx.github.io/images/632.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "jewel-legend-quest",
+    "thumbnail": "https://joybitx.github.io/images/633.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "skip-love",
+    "thumbnail": "https://joybitx.github.io/images/634.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "fragen",
+    "thumbnail": "https://joybitx.github.io/images/635.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "lol-funny-dance",
+    "thumbnail": "https://joybitx.github.io/images/636.webp",
+    "genre": "Casual, Dress-up"
+  },
+  {
+    "id": "asmr-water-vs-fire",
+    "thumbnail": "https://joybitx.github.io/images/637.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "bid-wars-1-auction-simulator",
+    "thumbnail": "https://joybitx.github.io/images/638.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "geometry-vibes",
+    "thumbnail": "https://joybitx.github.io/images/639.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "doges-battle-royale",
+    "thumbnail": "https://joybitx.github.io/images/640.webp",
+    "genre": "Battle"
+  },
+  {
+    "id": "last-ufo-defense",
+    "thumbnail": "https://joybitx.github.io/images/641.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "k-pop-hunter-fashion",
+    "thumbnail": "https://joybitx.github.io/images/642.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "block-mine-fuse-tnt",
+    "thumbnail": "https://joybitx.github.io/images/643.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "fill-sort-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/644.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "missile-launch-master",
+    "thumbnail": "https://joybitx.github.io/images/645.webp",
+    "genre": "Puzzle, Simulation"
+  },
+  {
+    "id": "stick-tactics-destruction",
+    "thumbnail": "https://joybitx.github.io/images/646.webp",
+    "genre": "Shooter, Battle"
+  },
+  {
+    "id": "traffic-tap-survival",
+    "thumbnail": "https://joybitx.github.io/images/647.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "tiny-baker-ocean-jelly-cake",
+    "thumbnail": "https://joybitx.github.io/images/648.webp",
+    "genre": "Cooking"
+  },
+  {
+    "id": "digit-shooter",
+    "thumbnail": "https://joybitx.github.io/images/649.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "ballistic-breakthrough",
+    "thumbnail": "https://joybitx.github.io/images/650.webp",
+    "genre": "Shooter, Strategy"
+  },
+  {
+    "id": "bubble-shooter-legend",
+    "thumbnail": "https://joybitx.github.io/images/651.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "belote-3in1",
+    "thumbnail": "https://joybitx.github.io/images/652.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "journey-of-escape",
+    "thumbnail": "https://joybitx.github.io/images/653.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "find-6-differences-spot-the-hidden-changes",
+    "thumbnail": "https://joybitx.github.io/images/654.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "bubble-shooter-pop",
+    "thumbnail": "https://joybitx.github.io/images/655.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "merge-balls-shooter-2048-connect-fruits",
+    "thumbnail": "https://joybitx.github.io/images/656.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "yummy-trails",
+    "thumbnail": "https://joybitx.github.io/images/657.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "doggo-jump",
+    "thumbnail": "https://joybitx.github.io/images/658.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "tangram-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/659.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "hit-ball",
+    "thumbnail": "https://joybitx.github.io/images/660.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "festival-vibes-makeup",
+    "thumbnail": "https://joybitx.github.io/images/661.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "run-n-shoot",
+    "thumbnail": "https://joybitx.github.io/images/662.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "flames-fortune",
+    "thumbnail": "https://joybitx.github.io/images/663.webp",
+    "genre": "Cards, Strategy"
+  },
+  {
+    "id": "find-objects-hidden-item",
+    "thumbnail": "https://joybitx.github.io/images/664.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "robots-gone-wild",
+    "thumbnail": "https://joybitx.github.io/images/665.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "chessfield",
+    "thumbnail": "https://joybitx.github.io/images/666.webp",
+    "genre": "Boardgames"
+  },
+  {
+    "id": "animal-royal",
+    "thumbnail": "https://joybitx.github.io/images/667.webp",
+    "genre": "Battle, Cards"
+  },
+  {
+    "id": "hole-battleio",
+    "thumbnail": "https://joybitx.github.io/images/668.webp",
+    "genre": ".IO, Simulation"
+  },
+  {
+    "id": "mermaids-spot-the-differences",
+    "thumbnail": "https://joybitx.github.io/images/669.webp",
+    "genre": "Puzzle, Agility"
+  },
+  {
+    "id": "jump-in-to-the-plane",
+    "thumbnail": "https://joybitx.github.io/images/670.webp",
+    "genre": "Racing & Driving, Agility"
+  },
+  {
+    "id": "color-nuts",
+    "thumbnail": "https://joybitx.github.io/images/671.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "car-paint",
+    "thumbnail": "https://joybitx.github.io/images/672.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "blind-boat-shooting-master",
+    "thumbnail": "https://joybitx.github.io/images/673.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "my-farm-empire",
+    "thumbnail": "https://joybitx.github.io/images/674.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "purrfect-bakery",
+    "thumbnail": "https://joybitx.github.io/images/675.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "office-solitaire",
+    "thumbnail": "https://joybitx.github.io/images/676.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "word-voyager",
+    "thumbnail": "https://joybitx.github.io/images/677.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "sort-tiles",
+    "thumbnail": "https://joybitx.github.io/images/678.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "police-chase-drifter",
+    "thumbnail": "https://joybitx.github.io/images/679.webp",
+    "genre": "Racing & Driving, Simulation"
+  },
+  {
+    "id": "ocean-small-hospital-doctor",
+    "thumbnail": "https://joybitx.github.io/images/680.webp",
+    "genre": "Casual, Educational"
+  },
+  {
+    "id": "word-game-2026",
+    "thumbnail": "https://joybitx.github.io/images/681.webp",
+    "genre": "Puzzle, Educational"
+  },
+  {
+    "id": "knifeio",
+    "thumbnail": "https://joybitx.github.io/images/682.webp",
+    "genre": ".IO, Battle"
+  },
+  {
+    "id": "2048-blocks-destruction",
+    "thumbnail": "https://joybitx.github.io/images/683.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "plane-chase",
+    "thumbnail": "https://joybitx.github.io/images/684.webp",
+    "genre": "Agility"
+  },
+  {
+    "id": "wild-west-match-3",
+    "thumbnail": "https://joybitx.github.io/images/685.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "sorting-candy-factory",
+    "thumbnail": "https://joybitx.github.io/images/686.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "force-master-3d",
+    "thumbnail": "https://joybitx.github.io/images/687.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "g-wagon-city-driver",
+    "thumbnail": "https://joybitx.github.io/images/688.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "runic-block-collapse",
+    "thumbnail": "https://joybitx.github.io/images/689.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "puzzle-blocks-fill-it-completely",
+    "thumbnail": "https://joybitx.github.io/images/690.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "challenge-your-friends",
+    "thumbnail": "https://joybitx.github.io/images/691.webp",
+    "genre": "Battle, Strategy"
+  },
+  {
+    "id": "shoot-n-crush",
+    "thumbnail": "https://joybitx.github.io/images/692.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "ball-rolling-slope",
+    "thumbnail": "https://joybitx.github.io/images/693.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "stickman-guys-defense",
+    "thumbnail": "https://joybitx.github.io/images/694.webp",
+    "genre": "Strategy"
+  },
+  {
+    "id": "cat-escape",
+    "thumbnail": "https://joybitx.github.io/images/695.webp",
+    "genre": "Adventure, Puzzle"
+  },
+  {
+    "id": "bus-jam-escape",
+    "thumbnail": "https://joybitx.github.io/images/696.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "power-light",
+    "thumbnail": "https://joybitx.github.io/images/697.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "basketball-fever",
+    "thumbnail": "https://joybitx.github.io/images/698.webp",
+    "genre": "Basketball, Casual"
+  },
+  {
+    "id": "phantom-thief-cat-running",
+    "thumbnail": "https://joybitx.github.io/images/699.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "save-the-daddy",
+    "thumbnail": "https://joybitx.github.io/images/700.webp",
+    "genre": "Adventure, Agility"
+  },
+  {
+    "id": "unblock-ball-slide-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/701.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "treasure-hunt-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/702.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "spider-evolution",
+    "thumbnail": "https://joybitx.github.io/images/703.webp",
+    "genre": "Adventure"
+  },
+  {
+    "id": "arcade-rope",
+    "thumbnail": "https://joybitx.github.io/images/704.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "syder-hyper-drive",
+    "thumbnail": "https://joybitx.github.io/images/705.webp",
+    "genre": "Racing & Driving, Casual"
+  },
+  {
+    "id": "merge-blocks-2048-style",
+    "thumbnail": "https://joybitx.github.io/images/706.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "two-stunt-racers",
+    "thumbnail": "https://joybitx.github.io/images/707.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "rummy-500-card-game",
+    "thumbnail": "https://joybitx.github.io/images/708.webp",
+    "genre": "Cards"
+  },
+  {
+    "id": "mojicon-garden-connect",
+    "thumbnail": "https://joybitx.github.io/images/709.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "drill-quest",
+    "thumbnail": "https://joybitx.github.io/images/710.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "color-yarn-sort",
+    "thumbnail": "https://joybitx.github.io/images/711.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "counter-craft-sniper",
+    "thumbnail": "https://joybitx.github.io/images/712.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "italian-brainrot-in-geometry-dash",
+    "thumbnail": "https://joybitx.github.io/images/713.webp",
+    "genre": "Agility"
+  },
+  {
+    "id": "garage-master-nuts-and-bolts",
+    "thumbnail": "https://joybitx.github.io/images/714.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "russian-derby-crash",
+    "thumbnail": "https://joybitx.github.io/images/715.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "power-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/716.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "alchemy-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/717.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "plane-crash-ragdoll-simulator",
+    "thumbnail": "https://joybitx.github.io/images/718.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "robbie-stand-on-the-right-color",
+    "thumbnail": "https://joybitx.github.io/images/719.webp",
+    "genre": "Agility"
+  },
+  {
+    "id": "mahjong-earth",
+    "thumbnail": "https://joybitx.github.io/images/720.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "chickz-stack",
+    "thumbnail": "https://joybitx.github.io/images/721.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "mahjong-pet-quest",
+    "thumbnail": "https://joybitx.github.io/images/722.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "2048-cube-shooting-merge",
+    "thumbnail": "https://joybitx.github.io/images/723.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "otu",
+    "thumbnail": "https://joybitx.github.io/images/724.webp",
+    "genre": "Agility"
+  },
+  {
+    "id": "asoka-makeup-indian-bride",
+    "thumbnail": "https://joybitx.github.io/images/725.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "tricky-arrow",
+    "thumbnail": "https://joybitx.github.io/images/726.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "chicken-scream-race",
+    "thumbnail": "https://joybitx.github.io/images/727.webp",
+    "genre": "Racing & Driving, Casual"
+  },
+  {
+    "id": "lights-out",
+    "thumbnail": "https://joybitx.github.io/images/728.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "mojo-match-3d",
+    "thumbnail": "https://joybitx.github.io/images/729.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "tappy-bird-avoid-the-spikes",
+    "thumbnail": "https://joybitx.github.io/images/730.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "color-jam-3d",
+    "thumbnail": "https://joybitx.github.io/images/731.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "piggy-clicker",
+    "thumbnail": "https://joybitx.github.io/images/732.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "face-changes",
+    "thumbnail": "https://joybitx.github.io/images/733.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "family-tree-emoji",
+    "thumbnail": "https://joybitx.github.io/images/734.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "energy-factory-idle",
+    "thumbnail": "https://joybitx.github.io/images/735.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "italian-brainrot-bomb-2player",
+    "thumbnail": "https://joybitx.github.io/images/736.webp",
+    "genre": "Adventure, Battle"
+  },
+  {
+    "id": "hopnova",
+    "thumbnail": "https://joybitx.github.io/images/737.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "merge-balls-new-years-toys-in-3d",
+    "thumbnail": "https://joybitx.github.io/images/738.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "obby-draw-to-escape",
+    "thumbnail": "https://joybitx.github.io/images/739.webp",
+    "genre": "Adventure, Agility"
+  },
+  {
+    "id": "remove-the-evidence",
+    "thumbnail": "https://joybitx.github.io/images/740.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "bubble-tea",
+    "thumbnail": "https://joybitx.github.io/images/741.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "shiny-jewels",
+    "thumbnail": "https://joybitx.github.io/images/742.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "minecraft-battle-party",
+    "thumbnail": "https://joybitx.github.io/images/743.webp",
+    "genre": "Battle"
+  },
+  {
+    "id": "stickman-mega-boss-battles",
+    "thumbnail": "https://joybitx.github.io/images/744.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "dazzling-divas-makeup",
+    "thumbnail": "https://joybitx.github.io/images/745.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "frogtastic-marble-adventure",
+    "thumbnail": "https://joybitx.github.io/images/746.webp",
+    "genre": "Bubble Shooter, Match-3"
+  },
+  {
+    "id": "monster-high-spooky-fashion",
+    "thumbnail": "https://joybitx.github.io/images/747.webp",
+    "genre": "Casual, Dress-up"
+  },
+  {
+    "id": "associations",
+    "thumbnail": "https://joybitx.github.io/images/748.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "magic-flow",
+    "thumbnail": "https://joybitx.github.io/images/749.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "real-motorbike-simulator-race-3d",
+    "thumbnail": "https://joybitx.github.io/images/750.webp",
+    "genre": "Sports, .IO"
+  },
+  {
+    "id": "emoji-match",
+    "thumbnail": "https://joybitx.github.io/images/751.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "labubu-merge-clicker",
+    "thumbnail": "https://joybitx.github.io/images/752.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "swim-good",
+    "thumbnail": "https://joybitx.github.io/images/753.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "pin-puzzle-love-story",
+    "thumbnail": "https://joybitx.github.io/images/754.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "capybara-skewer-match",
+    "thumbnail": "https://joybitx.github.io/images/755.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "block-sniper",
+    "thumbnail": "https://joybitx.github.io/images/756.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "lipstick-collector-run",
+    "thumbnail": "https://joybitx.github.io/images/757.webp",
+    "genre": "Agility, Casual"
+  },
+  {
+    "id": "kick-the-noobik-3d",
+    "thumbnail": "https://joybitx.github.io/images/758.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "bolts-and-nuts-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/759.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "halloween-stickman",
+    "thumbnail": "https://joybitx.github.io/images/760.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "headleg-dash-parkour",
+    "thumbnail": "https://joybitx.github.io/images/761.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "scroll-and-spot",
+    "thumbnail": "https://joybitx.github.io/images/762.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "epic-racing-descent-on-cars",
+    "thumbnail": "https://joybitx.github.io/images/763.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "theo-morinis-magical-resort",
+    "thumbnail": "https://joybitx.github.io/images/764.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "mad-truck",
+    "thumbnail": "https://joybitx.github.io/images/765.webp",
+    "genre": "Racing & Driving, Simulation"
+  },
+  {
+    "id": "my-garden-journey",
+    "thumbnail": "https://joybitx.github.io/images/766.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "red-stickman-vs-craftmans-2",
+    "thumbnail": "https://joybitx.github.io/images/767.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "hole-eat-grow-attack",
+    "thumbnail": "https://joybitx.github.io/images/768.webp",
+    "genre": ".IO, Casual"
+  },
+  {
+    "id": "screw-match",
+    "thumbnail": "https://joybitx.github.io/images/769.webp",
+    "genre": "Puzzle, Strategy"
+  },
+  {
+    "id": "highschool-mean-girls-3",
+    "thumbnail": "https://joybitx.github.io/images/770.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "artillery-vs-tanks",
+    "thumbnail": "https://joybitx.github.io/images/771.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "uno-online",
+    "thumbnail": "https://joybitx.github.io/images/772.webp",
+    "genre": "Strategy"
+  },
+  {
+    "id": "labuba-merge",
+    "thumbnail": "https://joybitx.github.io/images/773.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "popping-pets",
+    "thumbnail": "https://joybitx.github.io/images/774.webp",
+    "genre": "Match-3"
+  },
+  {
+    "id": "king-kong-kart-racing",
+    "thumbnail": "https://joybitx.github.io/images/775.webp",
+    "genre": "Racing & Driving, Casual"
+  },
+  {
+    "id": "2248-block-merge",
+    "thumbnail": "https://joybitx.github.io/images/776.webp",
+    "genre": "Merge"
+  },
+  {
+    "id": "bus-driver-simulator-3d",
+    "thumbnail": "https://joybitx.github.io/images/777.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "noob-fun-fishing",
+    "thumbnail": "https://joybitx.github.io/images/778.webp",
+    "genre": "Simulation"
+  },
+  {
+    "id": "color-nonogram-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/779.webp",
+    "genre": "Puzzle, Simulation"
+  },
+  {
+    "id": "bowmasters",
+    "thumbnail": "https://joybitx.github.io/images/780.webp",
+    "genre": "Shooter"
+  },
+  {
+    "id": "wordler",
+    "thumbnail": "https://joybitx.github.io/images/781.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "relay-race",
+    "thumbnail": "https://joybitx.github.io/images/782.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "purrfect-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/783.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "seafaring-memory-challenge",
+    "thumbnail": "https://joybitx.github.io/images/784.webp",
+    "genre": "Puzzle, Agility"
+  },
+  {
+    "id": "butterfly-triple",
+    "thumbnail": "https://joybitx.github.io/images/785.webp",
+    "genre": "Puzzle"
+  },
+  {
+    "id": "gross-out-run",
+    "thumbnail": "https://joybitx.github.io/images/786.webp",
+    "genre": "Racing & Driving"
+  },
+  {
+    "id": "crystal-connect",
+    "thumbnail": "https://joybitx.github.io/images/787.webp",
+    "genre": "Mahjong & Connect"
+  },
+  {
+    "id": "crazy-traffic-control",
+    "thumbnail": "https://joybitx.github.io/images/788.webp",
+    "genre": "Racing & Driving, Simulation"
+  },
+  {
+    "id": "bubble-shooter-panda-blast",
+    "thumbnail": "https://joybitx.github.io/images/789.webp",
+    "genre": "Bubble Shooter"
+  },
+  {
+    "id": "tile-connect-club",
+    "thumbnail": "https://joybitx.github.io/images/790.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "perfect-piano-magic",
+    "thumbnail": "https://joybitx.github.io/images/791.webp",
+    "genre": "Shooter, Casual"
+  },
+  {
+    "id": "monster-slayers",
+    "thumbnail": "https://joybitx.github.io/images/792.webp",
+    "genre": "Battle"
+  },
+  {
+    "id": "happy-glass-game",
+    "thumbnail": "https://joybitx.github.io/images/793.webp",
+    "genre": "Puzzle, Casual"
+  },
+  {
+    "id": "earth-defender",
+    "thumbnail": "https://joybitx.github.io/images/794.webp",
+    "genre": "Casual"
+  },
+  {
+    "id": "snow-rider-obby-parkour",
+    "thumbnail": "https://joybitx.github.io/images/795.webp",
+    "genre": "Adventure, Racing & Driving"
+  },
+  {
+    "id": "avatar-life-my-town",
+    "thumbnail": "https://joybitx.github.io/images/796.webp",
+    "genre": "Casual, Simulation"
+  },
+  {
+    "id": "jixora-jigsaw-solitaire-puzzle",
+    "thumbnail": "https://joybitx.github.io/images/797.webp",
+    "genre": "Jigsaw, Strategy"
+  },
+  {
+    "id": "bffs-luxury-loungewear",
+    "thumbnail": "https://joybitx.github.io/images/798.webp",
+    "genre": "Dress-up"
+  },
+  {
+    "id": "wild-west-match",
+    "thumbnail": "https://joybitx.github.io/images/799.webp",
+    "genre": "Match-3"
+  }
+]
